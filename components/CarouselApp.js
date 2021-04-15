@@ -16,19 +16,19 @@ const CarouselApp = () => {
     setCurrent(current === 0 ? CarouselData.length - 1 : current - 1);
   };
 
-  timer = setTimeout(() => {
-    setCurrent(current === CarouselData.length - 1 ? 0 : current + 1);
-  }, 4000);
+  // timer = setTimeout(() => {
+  //   setCurrent(current === CarouselData.length - 1 ? 0 : current + 1);
+  // }, 4000);
 
-  const pauseTimeout = () => {
-    clearTimeout(timer);
-  };
+  // const pauseTimeout = () => {
+  //   clearTimeout(timer);
+  // };
 
-  const resumeTimeout = () => {
-    timer = setTimeout(() => {
-      setCurrent(current === CarouselData.length - 1 ? 0 : current + 1);
-    }, 4000);
-  };
+  // const resumeTimeout = () => {
+  //   timer = setTimeout(() => {
+  //     setCurrent(current === CarouselData.length - 1 ? 0 : current + 1);
+  //   }, 4000);
+  // };
 
   return (
     <div className={s.container}>
@@ -49,8 +49,8 @@ const CarouselApp = () => {
             {index === current && (
               <div
                 className={s.itemshow_container}
-                onMouseEnter={pauseTimeout}
-                onMouseLeave={resumeTimeout}
+                // onMouseEnter={pauseTimeout}
+                // onMouseLeave={resumeTimeout}
               >
                 <img src={item.src} alt="" />
                 <div className={s.item_show_detail}>
