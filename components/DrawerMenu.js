@@ -34,29 +34,44 @@ export default function DrawerMenu() {
       onKeyDown={toggleDrawer(anchor, false)}
     >
       <List className={s.drawer_menu}>
-        <Button href="#" className={s.menu_firstmenu}>
+        <Button
+          href="#"
+          className={s.menu_firstmenu}
+          onClick={toggleDrawer(anchor, false)}
+        >
           Tentang
         </Button>
         <Button className={s.menu_dropdown}>
           <Dropdown title="Program">
             <Link href="/program/beasiswa-ntb">
-              <a>Beasiswa NTB</a>
+              <a onClick={toggleDrawer(anchor, false)}>Beasiswa NTB</a>
             </Link>
-            <Link href="/program/rumah-bahasa">
-              <a href="#">Rumah Bahasa</a>
+            <Link
+              href="/program/rumah-bahasa"
+              onClick={toggleDrawer(anchor, false)}
+            >
+              <a onClick={toggleDrawer(anchor, false)}>Rumah Bahasa</a>
             </Link>
           </Dropdown>
         </Button>
         <Button className={s.menu_dropdown}>
           <Dropdown title="Berita dan Kegiatan">
-            <a href="#">Berita LPPNTB</a>
-            <a href="#">Kegiatan LPPNTB</a>
+            <Link href="#" onClick={toggleDrawer(anchor, false)}>
+              <a>Berita LPPNTB</a>
+            </Link>
+            <Link href="#" onClick={toggleDrawer(anchor, false)}>
+              <a href="#">Kegiatan LPPNTB</a>
+            </Link>
           </Dropdown>
         </Button>
         <Button className={s.menu_dropdown}>
           <Dropdown title="Perpustakan">
-            <a href="#">Statistik Penerima Beasiswa NTB</a>
-            <a href="#">Booklet Beasiswa NTB</a>
+            <Link href="#" onClick={toggleDrawer(anchor, false)}>
+              <a href="#">Statistik Penerima Beasiswa NTB</a>
+            </Link>
+            <Link href="#" onClick={toggleDrawer(anchor, false)}>
+              <a href="#">Booklet Beasiswa NTB</a>
+            </Link>
           </Dropdown>
         </Button>
         <Button href="#" className={s.menu_notdrop}>
