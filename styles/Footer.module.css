@@ -1,0 +1,131 @@
+.container_quote{
+  background-color: #0e2b5c;
+}
+
+.wrapper_quote{
+  max-width: 1280px;
+  margin: 0 auto;
+  color: #fff;
+  padding: 100px 0px;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.wrapper{
+  max-width: 1280px;
+  margin: 0px auto;
+}
+
+.container{
+  background-color: #081e45;
+  padding: 50px 0px;
+}
+
+.link_footer {
+  color: #fff;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.link_footer a:nth-child(1){
+  margin-left: 0px;
+}
+
+.link_footer a{
+  color: #fdb900;
+  margin: 0px  20px;
+  font-weight: 600;
+  transition: ease-in-out color 0.2s;
+  text-decoration: underline;
+}
+
+.link_footer a:hover{
+  color: #fff;
+}
+
+.copyright{
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 400;
+}
+
+.btn_sosmed{
+  min-width: 0 !important;
+  padding: 10px !important;
+  border: 1px solid #fff !important;
+  border-radius: 50% !important;
+  color: #fff !important;
+  transition: ease-in-out color 0.1s !important;
+}
+
+.btn_sosmed_tengah{
+  margin: 0px 20px !important;
+}
+
+.btn_sosmed:hover{
+  border: 1px solid #fdb900 !important;
+  color: #fdb900 !important;
+}
+
+@media screen and (max-width:320px) {
+  .link_footer a:nth-child(4){
+    margin-right: 0px;
+  }
+
+  .copyright_title{
+    text-align: center;
+  }
+}
+
+@media screen and (max-width:414px) {
+ .wrapper_quote{
+   font-size: 30px;
+   padding: 50px 20px;
+ } 
+ .copyright_title{
+    font-size: 12px;
+  }
+  .link_footer a:nth-child(1){
+    margin-right: 0px;
+  }
+}
+
+@media screen and (max-width:614px){
+  .copyright{
+    flex-direction: column;
+  }
+
+  .copyright_title{
+    margin: 20px;
+  }
+
+  .link_footer{
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .wrapper_quote{
+    padding: 50px 20px;
+  }
+
+  .link_footer{
+    flex-wrap: wrap;
+  }
+  .link_footer a:nth-child(4){
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width:1280px){
+  .wrapper{
+    padding: 20px;
+  }
+  .berita_kegiatan{
+    padding: 20px;
+    background-color: #fdb900;
+  }
+}

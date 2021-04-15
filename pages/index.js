@@ -1,65 +1,53 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import Head from "next/head";
+import s from "../styles/Landing.module.css";
+import News from "../components/News";
+import Video from "../components/Video";
+import CarouselApp from "../components/CarouselApp";
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div className={s.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>Lembaga Pengembangan Pendidikan</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
-
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+      <div className={s.carousel}>
+        <div className={s.background}></div>
+        <div className={s.wrapper}>
+          <CarouselApp />
         </div>
-      </main>
+      </div>
 
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer>
+      <div className={s.berita_kegiatan}>
+        <h1>Berita dan Kegiatan Terbaru</h1>
+        <div className={s.row_berita}>
+          <News />
+          <News />
+          <News />
+          <News />
+        </div>
+        <div className={s.row_berita}>
+          <News />
+          <News />
+          <News />
+          <News />
+        </div>
+      </div>
+
+      <div className={s.video_section}>
+        <div className={s.background_video}></div>
+        <div className={s.video_lpp}>
+          <h1>Video LPPNTB</h1>
+          <div className={s.row_video}>
+            <Video vid="VyUtrC58WvI" />
+            <Video vid="_5jlhbGGTMo" />
+          </div>
+          <div className={s.row_video}>
+            <Video vid="RQO8t_TJPkA" />
+            <Video vid="bEH1FZV2VUQ" />
+          </div>
+        </div>
+      </div>
     </div>
-  )
+  );
 }

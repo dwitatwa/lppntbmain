@@ -1,0 +1,184 @@
+.header_container{
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  z-index: 100;
+  background-color: #fff;
+  transition: ease-in-out top 0.5s;
+}
+
+.turnoff{
+  position: sticky;
+  top: -87px;
+  position: -webkit-sticky;
+}
+
+.header_top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 15px 20px;
+}
+
+.hubungi_group{
+  display: flex;
+  align-items: center;
+}
+
+.hubungi{
+  display: flex;
+  align-items: center;
+  margin: 0 15px;
+  color: #fdb900;
+}
+
+.hubungi p{
+  color: #0e2b5c;
+  font-weight: 500;
+  margin-left: 10px;
+}
+
+.header_wrapper_bottom{
+  background-color: #0e2b5c;
+}
+
+.header_down{
+  color: #fff;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 20px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.menu{
+  display: flex;
+  align-items: center;
+}
+
+.menu_firstmenu{
+  margin-right: 16px !important;
+  font-weight: 500 !important;
+  font-family: Poppins, sans-serif !important;
+  color: #fff !important;
+  text-transform: capitalize !important;
+  font-size: 16px !important;
+}
+ .menu_firstmenu:hover{
+   color: #fdb900 !important;
+ }
+
+.menu_dropdown {
+  display: flex;
+  align-items: center;
+  margin: 0 16px;
+  font-weight: 500;
+}
+
+.menu_notdrop{
+  margin-right: 16px !important;
+  font-weight: 500 !important;
+  font-family: Poppins, sans-serif !important;
+  color: #fff !important;
+  text-transform: capitalize !important;
+  font-size: 16px !important;
+}
+
+.menu_notdrop:hover{
+  color: #fdb900 !important;
+}
+
+.icon{
+  color: #fff;
+}
+
+.sosmed_group{
+  display: flex;
+}
+
+.sosmed{
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 10px;
+}
+
+.sosmed:hover{
+  border-color: #fdb900;
+}
+
+.sosmed:hover .icon{
+  color: #fdb900;
+}
+
+.tooltip{
+  background-color: #fdb900;
+}
+
+.menu_btn{
+  color:#0e2b5c !important;
+  border: 1px solid #0e2b5c !important;
+}
+
+.drawer{
+  display: none;
+}
+
+.drawer_list{
+  width: 250px;
+}
+
+.drawer_fulllist{
+  width: auto;
+}
+
+.base_drawer{
+  background-color: #0e2b5c;
+  height: 100%;
+  width: 300px;
+}
+
+.drawer_menu{
+  display: flex;
+  flex-direction: column;
+  background-color: #0e2b5c;
+}
+
+.drawer_menu_notdrop{
+  font-family: Poppins, sans-serif;
+}
+
+.drawer_menu_dropdown{
+  font-family: Poppins, sans-serif;
+  color: #0e2b5c !important;
+}
+
+
+
+@media screen and (max-width:1115px) {
+  .menu{
+    display: none;
+  }
+
+  .drawer{
+    display: block;
+  }
+
+  .sosmed_group{
+    width:100%;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width:835px) {
+ .hubungi_group{
+   display: none;
+ }
+}

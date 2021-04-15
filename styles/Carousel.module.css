@@ -1,0 +1,133 @@
+.container{
+  position: relative;
+  padding:0px 50px;
+}
+
+
+.item_container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.backward{
+  background-color: #0e2b5c;
+  width: 30px !important;
+  height: 30px !important;
+  color: #fff;
+  border-radius: 50%;
+  position:absolute;
+  top: 50%;
+  left: 0;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.backward:hover{
+  background-color: #205bc0;
+}
+
+.forward{
+  background-color: #0e2b5c;
+  width: 30px !important;
+  height: 30px !important;
+  color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.forward:hover{
+  background-color: #205bc0;
+}
+
+.item{
+  opacity: 0;
+  transform: scale(0.8);
+  transition-duration: 1s ease;
+}
+
+.item_active{
+  opacity: 1;
+  transition-duration: 1s;
+  transform: scale(1);
+}
+
+.itemshow_container{
+  display: flex;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 2px solid rgba(100, 100, 100, 0.3);
+}
+
+.itemshow_container img{
+  width: 50%;
+}
+
+.item_show_detail{
+  padding: 60px;
+}
+
+.item_show_detail h1{
+  color: #0e2b5c;
+  font-size: 50px;
+  line-height: 50px;
+}
+.item_show_detail p{
+  margin-bottom: 30px;
+}
+
+.daftar{
+  background-color: #0e2b5c !important;
+  color: #fff !important;
+  font-family: Poppins, sans-serif !important;
+  text-transform: capitalize !important;
+  margin-right: 10px !important;
+}
+
+.daftar:hover{
+  background-color: #205bc0 !important;
+}
+
+.selengkapnya{
+  background-color: #fdb900 !important;
+  color: #0e2b5c !important;
+  font-family: Poppins, sans-serif !important;
+  text-transform: capitalize !important;
+  margin-right: 10px !important;
+}
+
+.selengkapnya:hover{
+  background-color: #b88702 !important;
+}
+
+@media screen and (max-width:768px) {
+  .itemshow_container{
+    flex-direction: column;
+  }
+
+  .itemshow_container img{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:414px) {
+
+  .item_show_detail{
+    padding: 10px;
+  }
+
+  .item_show_detail h1{
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .item_show_detail p{
+    font-size: 12px;
+  }
+  
+}
