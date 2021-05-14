@@ -92,6 +92,18 @@
   color: #fdb900 !important;
 }
 
+.menu_other{
+  font-weight: 500 !important;
+  font-family: Poppins, sans-serif !important;
+  color: #fff !important;
+  text-transform: capitalize !important;
+  font-size: 16px !important;
+}
+
+.menu_other:hover{
+  color: #fdb900 !important;
+}
+
 .icon{
   color: #fff;
 }
@@ -160,6 +172,57 @@
   color: #0e2b5c !important;
 }
 
+@media screen and (max-width:1366px) {
+  .header_down{
+    padding: 10px 20px;
+  }
+  .menu_firstmenu{
+    font-size: 12px !important;
+  }
+  .menu_dropdown{
+    font-size: 12px !important;
+  }
+  .menu_dropdown div{
+    font-size: 12px !important;
+  }
+  .menu_dropdown ul li a{
+    font-size: 12px !important;
+  }
+
+  .menu_other{
+    font-size: 12px !important;
+  }
+  .menu_notdrop{
+    font-size: 12px !important;
+  }
+
+  .header_top{
+    padding: 10px 100px;
+  }
+
+  .header_top img{
+    width: 80px;
+  }
+  
+  .hubungi p{
+    font-size: 10px;
+  }
+
+  .hubungi svg{
+    width: 20px;
+    height: 20px;
+  }
+
+  .turnoff{
+    position: sticky;
+    top: -66px;
+    position: -webkit-sticky;
+  }
+
+  .header_down{
+    padding: 10px 100px;
+  }
+}
 
 
 @media screen and (max-width:1115px) {
@@ -181,4 +244,15 @@
  .hubungi_group{
    display: none;
  }
+}
+
+@media screen and (max-width:414px) {
+  .header_top{
+    padding: 20px 20px;
+  }
+  .turnoff{
+    position: sticky;
+    top: -83px;
+    position: -webkit-sticky;
+  }
 }

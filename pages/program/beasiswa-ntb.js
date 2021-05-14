@@ -5,8 +5,9 @@ import AccordionSummary from "@material-ui/core/AccordionSummary";
 import Typography from "@material-ui/core/Typography";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import s from "../../styles/program/BeasiswaNTB.module.css";
+import Head from "next/head";
 
-const BeasiswaNTB = () => {
+const beasiswaNTB = () => {
   const [expanded, setExpanded] = React.useState(false);
 
   const handleChange = (panel) => (event, isExpanded) => {
@@ -14,6 +15,9 @@ const BeasiswaNTB = () => {
   };
   return (
     <div className={s.base}>
+      <Head>
+        <title>Beasiswa NTB</title>
+      </Head>
       <div className={s.background}></div>
       <div className={s.container}>
         <div className={s.title}>
@@ -263,4 +267,4 @@ const BeasiswaNTB = () => {
   );
 };
 
-export default BeasiswaNTB;
+export default beasiswaNTB;

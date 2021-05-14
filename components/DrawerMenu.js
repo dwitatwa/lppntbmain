@@ -54,15 +54,12 @@ export default function DrawerMenu() {
             </Link>
           </Dropdown>
         </Button>
-        <Button className={s.menu_dropdown}>
-          <Dropdown title="Berita dan Kegiatan">
-            <Link href="#" onClick={toggleDrawer(anchor, false)}>
-              <a>Berita LPPNTB</a>
-            </Link>
-            <Link href="#" onClick={toggleDrawer(anchor, false)}>
-              <a href="#">Kegiatan LPPNTB</a>
-            </Link>
-          </Dropdown>
+        <Button
+          href="#"
+          className={s.menu_other}
+          onClick={toggleDrawer(anchor, false)}
+        >
+          Berita dan Kegiatan
         </Button>
         <Button className={s.menu_dropdown}>
           <Dropdown title="Perpustakan">

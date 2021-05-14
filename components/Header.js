@@ -9,12 +9,24 @@ import FacebookIcon from "@material-ui/icons/Facebook";
 import YouTubeIcon from "@material-ui/icons/YouTube";
 import Dropdown from "./Dropdown";
 import Tooltip from "@material-ui/core/Tooltip";
-import { withStyles, makeStyles } from "@material-ui/core/styles";
+import { withStyles } from "@material-ui/core/styles";
 import { Button } from "@material-ui/core";
 import DrawerMenu from "./DrawerMenu";
 import Link from "next/link";
+import Router from "next/router";
+import Nprogress from "nprogress";
 
 const Header = () => {
+  Router.events.on("routeChangeStart", (url) => {
+    Nprogress.start();
+  });
+  Router.events.on("routeChangeComplete", (url) => {
+    Nprogress.done();
+  });
+  Router.events.on("routeChangeError", (url) => {
+    Nprogress.done();
+  });
+
   const [scroll, setScroll] = useState(0);
 
   useEffect(() => {
@@ -69,24 +81,26 @@ const Header = () => {
       <div className={s.header_wrapper_bottom}>
         <div className={s.header_down}>
           <div className={s.menu}>
-            <Button href="#" className={s.menu_firstmenu}>
-              Tentang
+            <Button className={s.menu_firstmenu}>
+              <Link href="/tentang">
+                <a>Tentang</a>
+              </Link>
             </Button>
             <Button className={s.menu_dropdown}>
               <Dropdown title="Program">
                 <Link href="/program/beasiswa-ntb">
-                  <a>Beasiswa NTB</a>
+                  <a href="/program/beasiswa-ntb">Beasiswa NTB</a>
+                  {/* <a href="/program/rumah-bahasa">Rumah Bahasa</a> */}
                 </Link>
                 <Link href="/program/rumah-bahasa">
-                  <a href="#">Rumah Bahasa</a>
+                  <a>Rumah Bahasa</a>
                 </Link>
               </Dropdown>
             </Button>
-            <Button className={s.menu_dropdown}>
-              <Dropdown title="Berita dan Kegiatan">
-                <a href="#">Berita LPPNTB</a>
-                <a href="#">Kegiatan LPPNTB</a>
-              </Dropdown>
+            <Button className={s.menu_other}>
+              <Link href="/berita-dan-kegiatan">
+                <a>Berita dan Kegiatan</a>
+              </Link>
             </Button>
             <Button className={s.menu_dropdown}>
               <Dropdown title="Perpustakan">

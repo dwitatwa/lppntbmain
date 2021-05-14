@@ -16,3 +16,17 @@ a {
 * {
   box-sizing: border-box;
 }
+
+#nprogress .bar {
+  background: #fdb900 !important;
+  height: 5px;
+}
+
+#nprogress .peg {
+  box-shadow: 0 0 10px #fdb900, 0 0 5px #fdb900;
+}
+
+#nprogress .spinner-icon {
+  border-top-color: #fdb900;
+  border-left-color: #fdb900;
+}

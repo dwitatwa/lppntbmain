@@ -26,7 +26,6 @@
   background-color: #2155ad;
   border-bottom: 5px solid #fdb900;
   background-color: #e5e5f7;
-  /* opacity: 0.3; */
   background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #2155ad 4px ), repeating-linear-gradient( #2155ad, #444cf7 );
 }
 
@@ -61,26 +60,6 @@
   border-bottom: 1px solid ;
 }
 
-.jenis_beasiswa li{
-  margin: 20px 0px;
-}
-
-.komponen_biaya{
-  padding: 10px 20px;
-}
-
-.komponen_biaya li{
-  margin: 0px !important;
-}
-
-.list_berkas li{
-  margin: 20px 0px;
-}
-
-.list_berkas li:nth-child(1){
-  margin-top: 0px;
-}
-
 @media screen and (max-width:1366px) {
   .base{
     padding: 50px 100px;
@@ -93,23 +72,32 @@
   .accordion_title{
     font-size: 13px !important;
   }
-}
 
-/* @media screen and (max-width:1280px) {
-  .base{
-    padding: 50px 20px;
+  .detail{
+    font-size: 13px !important;
+    padding: 0 20px;
+    text-align: justify;
   }
-} */
+
+  .detail div:nth-child(1){
+    margin-bottom: 10px;
+  }
+
+  .detail div:nth-child(2) ol{
+    margin: 0px;
+    padding: 0px 15px;
+  }
+}
 
 @media screen and (max-width:1024px) {
   .base{
-    padding: 30px 20px;
+    padding: 30px 20px !important;
   }
 }
 
 @media screen and (max-width:768px) {
   .base{
-    padding: 10px 20px 30px;
+    padding: 10px 20px 30px !important;
   }
 }
 

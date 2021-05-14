@@ -6,6 +6,37 @@
   height: 200px;
 }
 
+.title{
+  font-family: 'Poppins', sans-serif !important;
+  height: 100px;
+  overflow: hidden !important;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.preview{
+  font-family: 'Poppins', sans-serif !important;
+  height: 100px;
+  overflow: hidden;
+  text-align: justify;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+}
+
+
+@media screen and (max-width:1366px) {
+  .card{
+    width: 250px;
+    margin: 20px 0px;
+  }
+
+  .title{
+    font-size: 15px !important;
+    height: 60px;
+  }
+}
 @media screen and (max-width:960px) {
   .card{
     width: 100%;
