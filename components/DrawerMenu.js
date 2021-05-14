@@ -35,11 +35,12 @@ export default function DrawerMenu() {
     >
       <List className={s.drawer_menu}>
         <Button
-          href="#"
           className={s.menu_firstmenu}
           onClick={toggleDrawer(anchor, false)}
         >
-          Tentang
+          <Link href="/tentang">
+            <a>Tentang</a>
+          </Link>
         </Button>
         <Button className={s.menu_dropdown}>
           <Dropdown title="Program">
@@ -54,12 +55,10 @@ export default function DrawerMenu() {
             </Link>
           </Dropdown>
         </Button>
-        <Button
-          href="#"
-          className={s.menu_other}
-          onClick={toggleDrawer(anchor, false)}
-        >
-          Berita dan Kegiatan
+        <Button className={s.menu_other} onClick={toggleDrawer(anchor, false)}>
+          <Link href="/berita-dan-kegiatan">
+            <a>Berita dan Kegiatan</a>
+          </Link>
         </Button>
         <Button className={s.menu_dropdown}>
           <Dropdown title="Perpustakan">
