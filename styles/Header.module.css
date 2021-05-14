@@ -246,6 +246,17 @@
  }
 }
 
+@media screen and (max-width:426px) {
+  .header_top{
+    padding: 20px 20px;
+  }
+  .turnoff{
+    position: sticky;
+    top: -83px;
+    position: -webkit-sticky;
+  }
+}
+
 @media screen and (max-width:414px) {
   .header_top{
     padding: 20px 20px;

@@ -66,6 +66,7 @@
 .isi_berita a{
   color: #3067c5;
   text-decoration: underline;
+  word-wrap: break-word;
 }
 
 @media screen and (max-width:1366px) {

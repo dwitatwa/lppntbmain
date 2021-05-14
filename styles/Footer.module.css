@@ -124,6 +124,9 @@
   .link_footer{
     justify-content: center;
   }
+  .container{
+    padding: 50px 0px;
+  }
 }
 
 
