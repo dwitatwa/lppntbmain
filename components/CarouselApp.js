@@ -55,7 +55,7 @@ const CarouselApp = ({ crs }) => {
                         disableElevation
                         className={s.daftar}
                       >
-                        Daftar
+                        Daftar 
                       </Button>
                     )}
 
