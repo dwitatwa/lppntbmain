@@ -35,7 +35,7 @@ const Booklet = () => {
             <div className={s.content}>
               <h1>Booklet Info</h1>
               Tahun 2019-2020
-              <div className={s.status}> Masih Berlaku</div>
+              <div className={s.status_x}> Tidak Berlaku</div>
               <Button
                 className={s.download}
                 size="small"
@@ -51,7 +51,7 @@ const Booklet = () => {
             <div className={s.content}>
               <h1>Booklet Info</h1>
               Khusus Guru 2020
-              <div className={s.status}> Masih Berlaku</div>
+              <div className={s.status_x}> Tidak Berlaku</div>
               <Button
                 className={s.download}
                 size="small"
@@ -67,7 +67,7 @@ const Booklet = () => {
             <div className={s.content}>
               <h1>Booklet Info</h1>
               Khusus Nakes 2020
-              <div className={s.status}> Masih Berlaku</div>
+              <div className={s.status_x}> Tidak Berlaku</div>
               <Button
                 className={s.download}
                 size="small"
