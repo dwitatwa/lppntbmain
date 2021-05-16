@@ -27,13 +27,25 @@ const Footer = () => {
               NTB
             </div>
             <div>
-              <Button className={s.btn_sosmed}>
+              <Button
+                href="https://www.instagram.com/beasiswantb/"
+                target="_blank"
+                className={s.btn_sosmed}
+              >
                 <InstagramIcon className={s.icon} fontSize="small" />
               </Button>
-              <Button className={`${s.btn_sosmed} ${s.btn_sosmed_tengah}`}>
+              <Button
+                href="https://www.facebook.com/Beasiswa-NTB-506582289755226"
+                target="_blank"
+                className={`${s.btn_sosmed} ${s.btn_sosmed_tengah}`}
+              >
                 <FacebookIcon className={s.icon} fontSize="small" />
               </Button>
-              <Button className={s.btn_sosmed}>
+              <Button
+                href="https://www.youtube.com/channel/UCiwMtRu01J3BRjCgccNNXKg"
+                target="_blank"
+                className={s.btn_sosmed}
+              >
                 <YouTubeIcon className={s.icon} fontSize="small" />
               </Button>
             </div>

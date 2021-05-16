@@ -104,12 +104,16 @@ const Header = () => {
             </Button>
             <Button className={s.menu_dropdown}>
               <Dropdown title="Perpustakan">
-                <a href="#">Statistik Penerima Beasiswa NTB</a>
+                <Link href="/perpustakaan/statistik">
+                  <a>Sebaran Penerima Beasiswa NTB</a>
+                </Link>
                 <a href="#">Booklet Beasiswa NTB</a>
               </Dropdown>
             </Button>
-            <Button href="#" className={s.menu_notdrop}>
-              Awardee dan Alumni
+            <Button className={s.menu_notdrop}>
+              <Link href="/awardee-dan-alumni">
+                <a>Awardee dan Alumni</a>
+              </Link>
             </Button>
             <Button href="#" className={s.menu_notdrop}>
               Kontak Kami
@@ -118,17 +122,29 @@ const Header = () => {
 
           <div className={s.sosmed_group}>
             <LightTooltip title="@beasiswantb">
-              <a href="#" className={s.sosmed}>
+              <a
+                href="https://www.instagram.com/beasiswantb/"
+                target="_blank"
+                className={s.sosmed}
+              >
                 <InstagramIcon className={s.icon} fontSize="small" />
               </a>
             </LightTooltip>
             <LightTooltip title="Beasiswa NTB">
-              <a href="#" className={s.sosmed}>
+              <a
+                href="https://www.facebook.com/Beasiswa-NTB-506582289755226"
+                target="_blank"
+                className={s.sosmed}
+              >
                 <FacebookIcon className={s.icon} fontSize="small" />
               </a>
             </LightTooltip>
             <LightTooltip title="Beasiswa NTB">
-              <a href="#" className={s.sosmed}>
+              <a
+                href="https://www.youtube.com/channel/UCiwMtRu01J3BRjCgccNNXKg"
+                target="_blank"
+                className={s.sosmed}
+              >
                 <YouTubeIcon className={s.icon} fontSize="small" />
               </a>
             </LightTooltip>

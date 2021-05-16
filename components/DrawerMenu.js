@@ -70,8 +70,13 @@ export default function DrawerMenu() {
             </Link>
           </Dropdown>
         </Button>
-        <Button href="#" className={s.menu_notdrop}>
-          Awardee dan Alumni
+        <Button
+          className={s.menu_notdrop}
+          onClick={toggleDrawer(anchor, false)}
+        >
+          <Link href="/awardee-dan-alumni">
+            <a>Awardee dan Alumni</a>
+          </Link>
         </Button>
         <Button href="#" className={s.menu_notdrop}>
           Kontak Kami

@@ -1,0 +1,93 @@
+.card{
+  width: 220px;
+}
+
+.content_container{
+  display: flex;
+}
+
+.content_container h2{
+  font-size: 15px;
+}
+
+.content_container img{
+  border: 1px solid rgb(226, 225, 225);
+  margin-right: 10px;
+}
+
+@media screen and (max-width:1366px) {
+  .card{
+    width: 180px;
+  }
+
+  .content_container img{
+    width: 45px;
+    height: 35px;
+  }
+
+  .content_container h2{
+    font-size: 12px;
+  }
+
+  .content_container p{
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width:1024px) {
+  .card{
+    width: 140px;
+  }
+  .content_container{
+    padding: 10px !important;
+  }
+  .content_container img{
+    width: 35px;
+    height: 29px;
+  }
+  .content_container h2{
+    font-size: 10px;
+  }
+
+  .content_container p{
+    font-size: 9px;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .card{
+    width: 160px;
+  }
+
+  .content_container img{
+    width: 40px;
+    height: 35px;
+  }
+
+  .content_container h2{
+    font-size: 12px;
+  }
+
+  .content_container p{
+    font-size: 12px;
+  }
+
+}
+
+@media screen and (max-width:375px) {
+  .card{
+    width: 250px;
+  }
+  .content_container h2{
+    font-size: 18px;
+  }
+  .content_container p{
+    font-size: 16px;
+  }
+  .content_container img{
+    width: 80px;
+    height: 60px;
+  }
+
+  
+}

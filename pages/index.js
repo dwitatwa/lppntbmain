@@ -25,6 +25,8 @@ export async function getStaticProps() {
     content_type: "kampusKerjasama",
   });
 
+  console.log(res.items);
+
   return {
     props: {
       kampus: kampus.items,

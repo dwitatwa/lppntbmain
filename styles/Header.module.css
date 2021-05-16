@@ -246,13 +246,24 @@
  }
 }
 
+@media screen and (max-width:600px) {
+  .header_top{
+    padding: 20px 40px;
+  }
+  .turnoff{
+    position: sticky;
+    top: -84px;
+    position: -webkit-sticky;
+  }
+}
+
 @media screen and (max-width:426px) {
   .header_top{
     padding: 20px 20px;
   }
   .turnoff{
     position: sticky;
-    top: -83px;
+    top: -84px;
     position: -webkit-sticky;
   }
 }
@@ -263,7 +274,7 @@
   }
   .turnoff{
     position: sticky;
-    top: -83px;
+    top: -84px;
     position: -webkit-sticky;
   }
 }
