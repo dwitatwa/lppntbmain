@@ -68,7 +68,7 @@ export default function DrawerMenu() {
               </a>
             </Link>
             <Link href="#" onClick={toggleDrawer(anchor, false)}>
-              <a href="#">Booklet Beasiswa NTB</a>
+              <a onClick={toggleDrawer(anchor, false)}>Booklet Beasiswa NTB</a>
             </Link>
           </Dropdown>
         </Button>
