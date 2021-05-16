@@ -67,7 +67,7 @@ export default function DrawerMenu() {
                 Statistik Penerima Beasiswa NTB
               </a>
             </Link>
-            <Link href="#" onClick={toggleDrawer(anchor, false)}>
+            <Link href="/perpustakaan/booklet">
               <a onClick={toggleDrawer(anchor, false)}>Booklet Beasiswa NTB</a>
             </Link>
           </Dropdown>

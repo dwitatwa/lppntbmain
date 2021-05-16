@@ -107,7 +107,9 @@ const Header = () => {
                 <Link href="/perpustakaan/statistik">
                   <a>Sebaran Penerima Beasiswa NTB</a>
                 </Link>
-                <a href="#">Booklet Beasiswa NTB</a>
+                <Link href="/perpustakaan/booklet">
+                  <a>Booklet Beasiswa NTB</a>
+                </Link>
               </Dropdown>
             </Button>
             <Button className={s.menu_notdrop}>
