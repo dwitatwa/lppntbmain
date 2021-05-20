@@ -105,6 +105,10 @@
   .base{
     padding: 30px 20px;
   }
+  .image_rb{
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 @media screen and (max-width:768px) {

@@ -6,13 +6,32 @@ import Typography from "@material-ui/core/Typography";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import s from "../../styles/program/BeasiswaNTB.module.css";
 import Head from "next/head";
+import Image from "next/image";
+import { createClient } from "contentful";
 
-const rumahBahasa = () => {
+export async function getStaticProps() {
+  const client = createClient({
+    space: process.env.CONTENTFUL_SPACE_ID,
+    accessToken: process.env.CONTENTFUL_ACCESS_KEY,
+  });
+
+  const image1 = await client.getAsset("42YrEK1dzYcVSozCJJk65Z");
+  const image2 = await client.getAsset("4CrXP5MblGRENE4IwtvJNH");
+  return {
+    props: {
+      image1,
+      image2,
+    },
+  };
+}
+
+const rumahBahasa = ({ image1, image2 }) => {
   const [expanded, setExpanded] = React.useState(false);
 
   const handleChange = (panel) => (event, isExpanded) => {
     setExpanded(isExpanded ? panel : false);
   };
+
   return (
     <div className={s.base}>
       <Head>
@@ -121,50 +140,22 @@ const rumahBahasa = () => {
                 id="panel1bh-header"
               >
                 <Typography className={s.accordion_title}>
-                  Timeline Program Rumah Bahasa Batch IV Tahun 2021
+                  Timeline Program Rumah Bahasa Batch V Tahun 2021
                 </Typography>
               </AccordionSummary>
-              <AccordionDetails>
-                <ol>
-                  <li>
-                    <b> Pendaftaran Online</b> <br /> Calon Awardee mendaftarkan
-                    diri melalu website resmi LPPNTB https://lppntb.com, maupun
-                    melalui link yang sudah disediakan langsung oleh tim
-                    Beasiswa NTB.
-                  </li>
-                  <li>
-                    <b> Seleksi Berkas</b> <br /> Setiap berkas yang diupload
-                    pada form pendaftaran diseleksi dan divalidasi. Calon
-                    awardee yang lulus seleksi berkas diumumkan melalui laman
-                    resmi LPPNTB untuk melanjutkan ke tahap Seleksi Wawancara.
-                  </li>
-                  <li>
-                    <b> Seleksi Wawancara</b> <br /> Calon awardee yang lulus
-                    seleksi wawancara diumumkan melalui laman resmi LPPNTB dan
-                    dinyatakan sebagai Awardee Beasiswa NTB..
-                  </li>
-                  <li>
-                    <b> Penempatan Kampus</b> <br /> Awardee Beasiswa NTB tujuan
-                    Malaysia wajib mengikuti tes MUET, jika belum punya IELTS
-                    atau TOEFL IBT. Jika Awardee sudah memenuhi persyaratan
-                    kampus tujuan pada tahap 2, awardee lanjut ke tahap 5. Jika
-                    belum memenuhi persyaratan kampus, awardee diberikan waktu
-                    maksimal 1 (satu) tahun untuk melengkapi persyaratan sebelum
-                    lanjut ke tahap 5.
-                  </li>
-                  <li>
-                    <b> Persiapan Keberangkatan</b> <br /> Persiapan yang
-                    dilakukan adalah:
-                    <ul>
-                      <li>Pendaftaran ke kampus tujuan</li>
-                      <li>Pre-Departure Training</li>
-                      <li>Pengurusan Visa dan tiket</li>
-                    </ul>
-                  </li>
-                  <li>
-                    <b>Pemberangkatan</b>
-                  </li>
-                </ol>
+              <AccordionDetails className={s.image_rb}>
+                <Image
+                  src={"https:" + image1.fields.file.url}
+                  alt=""
+                  width={image1.fields.file.details.image.width}
+                  height={image1.fields.file.details.image.height}
+                />
+                <Image
+                  src={"https:" + image2.fields.file.url}
+                  alt=""
+                  width={image2.fields.file.details.image.width}
+                  height={image2.fields.file.details.image.height}
+                />
               </AccordionDetails>
             </Accordion>
             <Accordion
@@ -223,7 +214,7 @@ const rumahBahasa = () => {
                 </div>
               </AccordionDetails>
             </Accordion>
-            <Accordion
+            {/* <Accordion
               expanded={expanded === "panel5"}
               // expanded={true}
               onChange={handleChange("panel5")}
@@ -272,7 +263,7 @@ const rumahBahasa = () => {
                   </li>
                 </ol>
               </AccordionDetails>
-            </Accordion>
+            </Accordion> */}
           </div>
         </div>
       </div>

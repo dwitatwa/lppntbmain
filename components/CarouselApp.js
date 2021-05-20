@@ -54,8 +54,10 @@ const CarouselApp = ({ crs }) => {
                         color="primary"
                         disableElevation
                         className={s.daftar}
+                        href={item.fields.daftar}
+                        target="_blank"
                       >
-                        Daftar 
+                        Daftar
                       </Button>
                     )}
 
@@ -65,6 +67,8 @@ const CarouselApp = ({ crs }) => {
                         color="primary"
                         disableElevation
                         className={s.selengkapnya}
+                        href={item.fields.selengkapnya}
+                        target="_blank"
                       >
                         Selengkapnya
                       </Button>

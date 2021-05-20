@@ -22,6 +22,8 @@ const Booklet = () => {
                 size="small"
                 variant="outlined"
                 color="primary"
+                href="https://drive.google.com/file/d/1Tpfmi3D0jx8jAqeEMbJDAo-adNLgBsRq/view"
+                target="_blank"
               >
                 Download
               </Button>
@@ -41,6 +43,8 @@ const Booklet = () => {
                 size="small"
                 variant="outlined"
                 color="primary"
+                href="https://drive.google.com/file/d/1NA-i1bDVGJ6dVYVr2jiiKpzwrCPEz0QN/view"
+                target="_blank"
               >
                 Download
               </Button>
@@ -50,13 +54,15 @@ const Booklet = () => {
             <img src="/cobook.jpeg" alt="" />
             <div className={s.content}>
               <h1>Booklet Info</h1>
-              Khusus Guru 2020
+              Guru Dan Nakes
               <div className={s.status_x}> Tidak Berlaku</div>
               <Button
                 className={s.download}
                 size="small"
                 variant="outlined"
                 color="primary"
+                href="https://drive.google.com/file/d/1clbPW7EsXbT2-rFpBwqyJfErrmjeRjiM/view"
+                target="_blank"
               >
                 Download
               </Button>
@@ -66,13 +72,14 @@ const Booklet = () => {
             <img src="/cobook.jpeg" alt="" />
             <div className={s.content}>
               <h1>Booklet Info</h1>
-              Khusus Nakes 2020
-              <div className={s.status_x}> Tidak Berlaku</div>
+              Tahap 2<div className={s.status_x}> Tidak Berlaku</div>
               <Button
                 className={s.download}
                 size="small"
                 variant="outlined"
                 color="primary"
+                href="https://drive.google.com/file/d/1XDiP1eEr8QlcHl7wN29GKe12j8dQuM8N/view"
+                target="_blank"
               >
                 Download
               </Button>

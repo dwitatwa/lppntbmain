@@ -1,0 +1,38 @@
+.card_container{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card{
+  width: 300px;
+} 
+
+.card img{
+  height: 200px;
+}
+
+.card h2{
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+  color: #0e2b5c;
+}
+
+.card span{
+  color: #f2cd4a;
+}
+
+.jenis_kontak{
+  width: 200px;
+  display: block;
+  font-size: 13px;
+}
+
+@media screen and (max-width:600px) {
+  .card{
+    width: 100%;
+    margin: 15px 0px;
+  }
+
+  
+}
