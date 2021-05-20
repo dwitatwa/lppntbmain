@@ -39,7 +39,7 @@ export default function Home({ berita, crs, kampus }) {
     <div className={s.container}>
       <Head>
         <title>Lembaga Pengembangan Pendidikan</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon_lpp.ico" />
       </Head>
       <div className={s.carousel}>
         <div className={s.background}></div>
