@@ -80,8 +80,13 @@ export default function DrawerMenu() {
             <a>Awardee dan Alumni</a>
           </Link>
         </Button>
-        <Button href="#" className={s.menu_notdrop}>
-          Kontak Kami
+        <Button
+          className={s.menu_notdrop}
+          onClick={toggleDrawer(anchor, false)}
+        >
+          <Link href="/kontak">
+            <a>Kontak Kami</a>
+          </Link>
         </Button>
       </List>
     </div>
