@@ -38,7 +38,7 @@ export default function Home({ berita, crs, kampus }) {
   return (
     <div className={s.container}>
       <Head>
-        <title>Lembaga Pengembangan Pendidikan</title>
+        <title>Lembaga Pengembangan Pendidikan </title>
       </Head>
       <div className={s.carousel}>
         <div className={s.background}></div>
