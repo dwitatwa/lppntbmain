@@ -17,7 +17,7 @@ module.exports = {
         permanent: true,
       },
       {
-        source: "pendaftaranbeasiswantb2021",
+        source: "/pendaftaranbeasiswantb2021",
         destination:
           "https://docs.google.com/forms/d/e/1FAIpQLScgkM35L_CW8cNs3aLQQCo8oJxAfn9jElE0AudVYB8NukyAmw/viewform?usp=sf_link",
         permanent: true,
