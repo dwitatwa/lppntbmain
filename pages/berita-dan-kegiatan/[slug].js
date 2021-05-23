@@ -51,7 +51,7 @@ const Details = ({ berita }) => {
         <h1>{berita.fields.judul}</h1>
         <div className={s.tanggal_terbit}>
           Mataram,
-          <i>{berita.fields.tanggalTerbit.split("-").reverse("").join("-")}</i>
+          {berita.fields.tanggalTerbit.split("-").reverse("").join("-")}
         </div>
         <img
           src={"https:" + berita.fields.cover.fields.file.url}

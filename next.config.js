@@ -23,6 +23,12 @@ module.exports = {
           "https://docs.google.com/forms/d/e/1FAIpQLScgkM35L_CW8cNs3aLQQCo8oJxAfn9jElE0AudVYB8NukyAmw/viewform?usp=sf_link",
         permanent: true,
       },
+      {
+        source: "/ieltsofficialtest2021",
+        destination:
+          "https://docs.google.com/forms/d/e/1FAIpQLSdNUS1NBhggXUhKgFemXJHuc-qPFZqvYcTAx6OAU8w_Av5vDQ/viewform?usp=sf_link",
+        permanent: true,
+      },
     ];
   },
 };
