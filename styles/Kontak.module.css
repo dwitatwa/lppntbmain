@@ -14,12 +14,13 @@
 
 .card h2{
   font-size: 18px;
+  font-weight: 600;
   font-family: 'Poppins', sans-serif;
   color: #0e2b5c;
 }
 
 .card span{
-  color: #f2cd4a;
+  color: #fdb900;
 }
 
 .jenis_kontak{
