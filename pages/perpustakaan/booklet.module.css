@@ -109,6 +109,13 @@
   margin: 0px 20px;
 }
 
+.update_status{
+  font-size: 12px;
+  color: #0e2b5c;
+  font-weight: 800;
+  text-decoration:underline;
+}
+
 @media screen and (max-width:1366px) {
   .container{
     padding: 50px 100px;
