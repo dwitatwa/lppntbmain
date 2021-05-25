@@ -174,7 +174,7 @@ const rumahBahasa = ({ image1, image2 }) => {
               </AccordionSummary>
               <AccordionDetails>
                 <div>
-                  <ol>
+                  {/* <ol>
                     <li>
                       Memiliki KTP NTB, atau berdomisili paling kurang 2 (dua)
                       tahun di NTB, atau Diaspora NTB yang dibuktikan dengan
@@ -210,7 +210,7 @@ const rumahBahasa = ({ image1, image2 }) => {
                       Jika sudah mendapatkan gelar S2, tidak boleh mendaftar
                       untuk jenjang pendidikan yang sama
                     </li>
-                  </ol>
+                  </ol> */}
                 </div>
               </AccordionDetails>
             </Accordion>
