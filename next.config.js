@@ -29,6 +29,12 @@ module.exports = {
           "https://docs.google.com/forms/d/e/1FAIpQLSdNUS1NBhggXUhKgFemXJHuc-qPFZqvYcTAx6OAU8w_Av5vDQ/viewform?usp=sf_link",
         permanent: true,
       },
+      {
+        source: "/pendaftaranbeasiswantbturkey",
+        destination:
+          "https://docs.google.com/forms/d/e/1FAIpQLSdbs3vBLRwIjpR5Mx5scz2U8_ziSAXFPzzq699HKNp5HzdK0Q/viewform?usp=sf_link",
+        permanent: true,
+      },
     ];
   },
 };
