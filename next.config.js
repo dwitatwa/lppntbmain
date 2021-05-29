@@ -35,6 +35,12 @@ module.exports = {
           "https://docs.google.com/forms/d/e/1FAIpQLSdbs3vBLRwIjpR5Mx5scz2U8_ziSAXFPzzq699HKNp5HzdK0Q/viewform?usp=sf_link",
         permanent: true,
       },
+      {
+        source: "/awardeebeasiswantbbersyarat",
+        destination:
+          "https://docs.google.com/forms/d/e/1FAIpQLSfaLjBQbO95pW-dX5NqUZJWNwIPmwDwDwZNtqRX1zOJ09XbXA/viewform?usp=sf_link",
+        permanent: true,
+      },
     ];
   },
 };
