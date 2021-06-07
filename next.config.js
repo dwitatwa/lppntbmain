@@ -41,6 +41,12 @@ module.exports = {
           "https://docs.google.com/forms/d/e/1FAIpQLSfaLjBQbO95pW-dX5NqUZJWNwIPmwDwDwZNtqRX1zOJ09XbXA/viewform?usp=sf_link",
         permanent: true,
       },
+      {
+        source: "/toeflpredictiontest",
+        destination:
+          "https://docs.google.com/forms/d/e/1FAIpQLSf4W1PnfwbL5svQtJHftFSS8_9r5aupcPjFewgN9yuDyEOUGA/viewform?usp=sf_link",
+        permanent: true,
+      },
     ];
   },
 };
