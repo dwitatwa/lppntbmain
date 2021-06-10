@@ -47,6 +47,12 @@ module.exports = {
           "https://docs.google.com/forms/d/e/1FAIpQLSf4W1PnfwbL5svQtJHftFSS8_9r5aupcPjFewgN9yuDyEOUGA/viewform?usp=sf_link",
         permanent: true,
       },
+      {
+        source: "/oprecpesertarumahbahasa2021",
+        destination:
+          "https://docs.google.com/forms/d/e/1FAIpQLSeUEWpY18z0d9Y3qXccL6mdv_XC1LhRZVvNHgQwldXZj86wpQ/viewform?usp=sf_link",
+        permanent: true,
+      },
     ];
   },
 };
