@@ -53,6 +53,12 @@ module.exports = {
           "https://docs.google.com/forms/d/e/1FAIpQLSeUEWpY18z0d9Y3qXccL6mdv_XC1LhRZVvNHgQwldXZj86wpQ/viewform?usp=sf_link",
         permanent: true,
       },
+      {
+        source: "/IELTSPredictionTestLPPNTB",
+        destination:
+          "https://docs.google.com/forms/d/e/1FAIpQLSd11JqblXxoWjIJ4-JprV0ql_mgVzBVpbRqqDE8hCBLjDoZEg/viewform?usp=sf_link",
+        permanent: true,
+      },
     ];
   },
 };
