@@ -37,13 +37,12 @@ export default function jalurMandiri({ vistula, nicolaus }) {
           <hr style={{ border: "1px solid rgb(225,225,225)" }} />
           <p>
             Program Jalur Mandiri (Non Beasiswa) merupakan program baru dari
-            LPPNTB yang memberikan kesempatan kepada seluruh masyarakat NTB
-            khususnya dan Indonesia pada umumnya untuk melanjutkan studi ke luar
-            negeri melalui kerjasama yang sudah dilakukan oleh LPPNTB dengan
-            Negara dan Kampus terkait. Program ini merupakan program{" "}
-            <b>Non Beasiswa</b>, akan tetapi Mahasiswa tetap mendapatkan{" "}
-            <i>privilege</i> yang diberikan sesuai dengan MoU antara LPPNTB
-            dengan Negara atau Kampus terkait.
+            LPPNTB yang memberikan kesempatan kepada seluruh rakyat Indonesia
+            pada umumnya untuk melanjutkan studi ke luar negeri melalui
+            kerjasama yang sudah dilakukan oleh LPPNTB dengan Negara dan Kampus
+            terkait. Program ini merupakan program <b>Non Beasiswa</b>, akan
+            tetapi Mahasiswa tetap mendapatkan <i>privilege</i> yang diberikan
+            sesuai dengan MoU antara LPPNTB dengan Negara atau Kampus terkait.
           </p>
         </div>
         <div className={s.content} style={{ marginBottom: "20px" }}>
@@ -288,7 +287,7 @@ export default function jalurMandiri({ vistula, nicolaus }) {
         <div className={s.content} style={{ marginBottom: "20px" }}>
           <h3>Persyaratan yang harus dipenuhi</h3>
           <hr style={{ border: "1px solid rgb(225,225,225)" }} />
-          Beberapa persyaratan yang harus dipenuhi oleh calon Awardee :
+          Beberapa persyaratan yang harus dipenuhi oleh calon Mahasiswa :
           <ol>
             <li>
               Memiliki sertifikat bahasa dengan minimal CEFR B2 (IELTS 5.5 atau
@@ -296,7 +295,13 @@ export default function jalurMandiri({ vistula, nicolaus }) {
             </li>
             <li>
               Menyerahkan Ijazah S1 dengan bidang yang sama dengan Jurusan yang
-              ingin diambil
+              ingin diambil.
+            </li>
+            <li>
+              Untuk Computer Engineering, Mahasiswa harus merupakan lulusan dari
+              Computer Engineering atau bidang yang berhubungan dengan Computer
+              Engingeering seperti Data Science, Teknik Informatika dan lain -
+              lain.
             </li>
             <li>
               Jika Ijazah menggunakan Bahasa Indonesia atau selain Bahasa
