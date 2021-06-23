@@ -46,6 +46,22 @@ export default function jalurMandiri({ vistula, nicolaus }) {
             dengan Negara atau Kampus terkait.
           </p>
         </div>
+        <div className={s.content} style={{ marginBottom: "20px" }}>
+          <h3>Apa yang akan didapatkan?</h3>
+          <hr style={{ border: "1px solid rgb(225,225,225)" }} />
+          Yang akan didapatkan oleh Mahasiswa melalui program ini adalah :
+          <ol>
+            <li>Bantuan saat pendaftaran ke kampus</li>
+            <li>Bantuan dalam pembuatan Visa</li>
+            <li>
+              Persiapan keberangkatan seperti Bimbingan Teknik (BimTek) dan Pre
+              Departure Training (PDT)
+            </li>
+            <li>
+              Previlege yang sama dengan Awardee yang melalui jalur Beasiswa
+            </li>
+          </ol>
+        </div>
         <div
           className={`${s.content} ${s.content_negara}`}
           style={{ marginBottom: "20px" }}
@@ -58,21 +74,22 @@ export default function jalurMandiri({ vistula, nicolaus }) {
             yang berada di tengah diantara negara - negara Eropa membuat
             kemungkinan untuk mendapat kesempatan, pengalaman, dan pengetahuan
             dalam dunia akademik maupun non akademik menjadi sangat besar. Salah
-            satu program yang paling dicari oleh Internatioan Students di negara
-            Eropa adalah program <i>Erasmus</i>. Program Erasmus (singkatan dari
-            European Region Action Scheme for the Mobility of University
-            Students) merupakan program pertukaran mahasiswa di Eropa yang
-            didirikan pada tahun 1987, dimana dengan program ini International
-            Students bisa mendapatkan kesempatan belajar di beberapa negara
-            Eropa.
+            satu program yang paling dicari oleh International Students di
+            negara Eropa adalah program <i>Erasmus</i>. Program Erasmus
+            (singkatan dari European Region Action Scheme for the Mobility of
+            University Students) merupakan program pertukaran mahasiswa di Eropa
+            yang didirikan pada tahun 1987, dimana dengan program ini
+            International Students bisa mendapatkan kesempatan belajar di
+            beberapa negara Eropa.
           </p>
           <div className={s.res_table}>
-            <table className={s.table}>
+            <table className={`${s.table} ${s.table_tuition}`}>
               <thead>
                 <tr className={s.tr}>
-                  <th className={s.th}>Kampus</th>
+                  <th className={s.th}>Universitas</th>
                   <th className={s.th}>Jurusan yang dibuka</th>
                   <th className={s.th}>Catatan</th>
+                  <th className={s.th}>Biaya Pendidikan</th>
                 </tr>
               </thead>
               <tbody>
@@ -81,35 +98,40 @@ export default function jalurMandiri({ vistula, nicolaus }) {
                     <img src={"https:" + vistula.fields.file.url} alt="" />
                   </td>
                   <td className={s.td}>
-                    <ol>
+                    <ul>
                       <li>Computer Engineering</li>
                       <li>Energy Management</li>
-                    </ol>
+                    </ul>
+                  </td>
+                  <td className={s.td}>
+                    Program Computer Engineering (Master) sudah termasuk Magang
                   </td>
                   <td className={s.td}>
                     <ul>
                       <li>
-                        Program Computer Engineering (Master) sudah termasuk
-                        Magang
+                        Registration Fee : <b>200 EUR</b>{" "}
+                      </li>
+                      <li>
+                        Tuition Fee/Year : <b>3800 EUR</b>
+                      </li>
+                      <li>
+                        Tuition Fee/Semester : <b>2000 EUR</b>{" "}
                       </li>
                     </ul>
                   </td>
                 </tr>
                 <tr>
-                  <td className={s.td}>
+                  <td className={s.td} rowSpan="4">
                     <img src={"https:" + nicolaus.fields.file.url} alt="" />
                   </td>
                   <td className={s.td}>
-                    <ol>
+                    <ul>
                       <li>International Economics and Finance</li>
                       <li>Bussines Administration</li>
                       <li>Tourism and Sport Management</li>
-                      <li>International Politics and Diplomacy</li>
-                      <li>English Studies</li>
-                      <li>Chemistry</li>
-                    </ol>
+                    </ul>
                   </td>
-                  <td className={s.td}>
+                  <td>
                     <ul>
                       <li>
                         Untuk double degree business administrasi maksimal 10
@@ -128,6 +150,76 @@ export default function jalurMandiri({ vistula, nicolaus }) {
                       </li>
                     </ul>
                   </td>
+                  <td className={s.td}>
+                    Tuition Fee dibayarkan per tahun berdasarkan jumlah
+                    Mahasiswa yang diterima :
+                    <ul>
+                      <li>
+                        {" "}
+                        Jika &le; 9 : <b>4320 EUR</b>
+                      </li>
+                      <li>
+                        {" "}
+                        Jika &ge; 10 dan &le; 15 : <b>3024 EUR</b>
+                      </li>
+                      <li>
+                        Jika &ge; 16 : <b>2160 EUR</b>
+                      </li>
+                    </ul>
+                  </td>
+                </tr>
+                <tr>
+                  <td className={s.td}>
+                    <ul>
+                      <li>International Politics and Diplomacy</li>
+                    </ul>
+                  </td>
+                  <td className={s.td} style={{ textAlign: "center" }}>
+                    ---
+                  </td>
+                  <td className={s.td} style={{ textAlign: "center" }}>
+                    <b>1200 EUR</b> per tahun
+                  </td>
+                </tr>
+                <tr>
+                  <td className={s.td}>
+                    <ul>
+                      <li>English Studies</li>
+                    </ul>
+                  </td>
+                  <td className={s.td} style={{ textAlign: "center" }}>
+                    Maksimal Mahasiswa yang bisa diterima adalah 7 Orang
+                  </td>
+                  <td className={s.td} style={{ textAlign: "center" }}>
+                    <b>1354 EUR</b> per tahun.
+                  </td>
+                </tr>
+                <tr>
+                  <td className={s.td}>
+                    <ul>
+                      <li>Chemistry</li>
+                    </ul>
+                  </td>
+                  <td className={s.td} style={{ textAlign: "center" }}>
+                    ---
+                  </td>
+                  <td className={s.td}>
+                    Tuition Fee dibayarkan pertahun berdasarkan jumlah Mahasiswa
+                    yang diterima :
+                    <ul>
+                      <li>
+                        {" "}
+                        Jika &le; 8 : <b>3910 EUR</b>
+                      </li>
+                      <li>
+                        {" "}
+                        Jika &ge; 9 dan &le; 16 : <b>2932,50 EUR</b>
+                      </li>
+                      <li>
+                        Jika &ge; 17 : <b>2346 EUR</b>
+                      </li>
+                    </ul>
+                  </td>
                 </tr>
               </tbody>
             </table>
@@ -137,7 +229,7 @@ export default function jalurMandiri({ vistula, nicolaus }) {
           className={s.content}
           style={{ marginBottom: "20px", paddingBottom: "40px" }}
         >
-          <h3>Biaya yang perlu dipersiapkan</h3>
+          <h3>Biaya lain yang perlu dipersiapkan</h3>
           <hr style={{ border: "1px solid rgb(225,225,225)" }} />
           <div>
             <ol>
@@ -155,136 +247,8 @@ export default function jalurMandiri({ vistula, nicolaus }) {
               <li>
                 Biaya Pembuatan Visa <b> Rp. 1.500.000,- </b>
               </li>
-              <li>Biaya Pendidikan (Lihat tabel dibawah)</li>
             </ol>
-            <div className={s.res_table}>
-              <table className={`${s.table} ${s.table_tuition}`}>
-                <thead>
-                  <tr className={s.tr}>
-                    <th className={s.th}>Kampus</th>
-                    <th className={s.th}>Jurusan yang dibuka</th>
-                    <th className={s.th}>Biaya Pendidikan</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr className={s.tr}>
-                    <td className={s.td}>
-                      <img src={"https:" + vistula.fields.file.url} alt="" />
-                    </td>
-                    <td className={s.td}>
-                      <ul>
-                        <li>Computer Engineering</li>
-                        <li>Energy Management</li>
-                      </ul>
-                    </td>
-                    <td className={s.td}>
-                      <ul>
-                        <li>
-                          Registration Fee : <b>200 EUR</b>{" "}
-                        </li>
-                        <li>
-                          Tuition Fee/Year : <b>3800 EUR</b>
-                        </li>
-                        <li>
-                          Tuition Fee/Semester : <b>2000 EUR</b>{" "}
-                        </li>
-                      </ul>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td className={s.td} rowSpan="4">
-                      <img src={"https:" + nicolaus.fields.file.url} alt="" />
-                    </td>
-                    <td className={s.td}>
-                      <ul>
-                        <li>International Economics and Finance</li>
-                        <li>Bussines Administration</li>
-                        <li>Tourism and Sport Management</li>
-                      </ul>
-                    </td>
-                    <td className={s.td}>
-                      Tuition Fee dibayarkan pertahun berdasarkan jumlah Awardee
-                      yang diterima :
-                      <ul>
-                        <li>
-                          {" "}
-                          Jika &le; 9 : <b>4320 EUR</b>
-                        </li>
-                        <li>
-                          {" "}
-                          Jika &ge; 10 dan &le; 15 : <b>3024 EUR</b>
-                        </li>
-                        <li>
-                          Jika &ge; 16 : <b>2160 EUR</b>
-                        </li>
-                      </ul>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td className={s.td}>
-                      <ul>
-                        <li>International Politics and Diplomacy</li>
-                      </ul>
-                    </td>
-                    <td className={s.td} style={{ textAlign: "center" }}>
-                      <b>1200 EUR</b> per tahun
-                    </td>
-                  </tr>
-                  <tr>
-                    <td className={s.td}>
-                      <ul>
-                        <li>English Studies</li>
-                      </ul>
-                    </td>
-                    <td className={s.td} style={{ textAlign: "center" }}>
-                      <b>1354 EUR</b> per tahun. Maksimal Awardee yang bisa
-                      diterima adalah 7 Orang
-                    </td>
-                  </tr>
-                  <tr>
-                    <td className={s.td}>
-                      <ul>
-                        <li>Chemistry</li>
-                      </ul>
-                    </td>
-                    <td className={s.td}>
-                      Tuition Fee dibayarkan pertahun berdasarkan jumlah Awardee
-                      yang diterima :
-                      <ul>
-                        <li>
-                          {" "}
-                          Jika &le; 8 : <b>3910 EUR</b>
-                        </li>
-                        <li>
-                          {" "}
-                          Jika &ge; 9 dan &le; 16 : <b>2932,50 EUR</b>
-                        </li>
-                        <li>
-                          Jika &ge; 17 : <b>2346 EUR</b>
-                        </li>
-                      </ul>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
           </div>
-        </div>
-        <div className={s.content} style={{ marginBottom: "20px" }}>
-          <h3>Apa yang akan didapatkan?</h3>
-          <hr style={{ border: "1px solid rgb(225,225,225)" }} />
-          Yang akan didapatkan oleh Awardee melalui program ini adalah :
-          <ol>
-            <li>Bantuan saat pendaftaran ke kampus</li>
-            <li>Bantuan dalam pembuatan Visa</li>
-            <li>
-              Persiapan keberangkatan seperti Bimbingan Teknik (BimTek) dan Pre
-              Departure Training (PDT)
-            </li>
-            <li>
-              Previlege yang sama dengan Awardee yang melalui jalur Beasiswa
-            </li>
-          </ol>
         </div>
         <div className={s.content} style={{ marginBottom: "20px" }}>
           <h3>Persyaratan yang harus dipenuhi</h3>
@@ -307,10 +271,6 @@ export default function jalurMandiri({ vistula, nicolaus }) {
             <li>
               Harus memiliki asuransi kesehatan dan kecelakaan dengan jumlah
               minimal 100.000 USD
-            </li>
-            <li>
-              Menyerahkan Berkas yang diperlukan sebelum tanggal 30 Juni melalui{" "}
-              <i>Dreamapply Admission System</i>
             </li>
           </ol>
         </div>
