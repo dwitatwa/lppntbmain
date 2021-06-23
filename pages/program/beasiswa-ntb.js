@@ -26,8 +26,8 @@ const beasiswaNTB = () => {
         <div className={s.card}>
           <div className={s.accordion_container}>
             <Accordion
-              expanded={expanded === "panel1"}
-              // expanded={true}
+              // expanded={expanded === "panel1"}
+              expanded={true}
               onChange={handleChange("panel1")}
             >
               <AccordionSummary
@@ -53,8 +53,8 @@ const beasiswaNTB = () => {
               </AccordionDetails>
             </Accordion>
             <Accordion
-              expanded={expanded === "panel2"}
-              // expanded={true}
+              // expanded={expanded === "panel2"}
+              expanded={true}
               onChange={handleChange("panel2")}
             >
               <AccordionSummary
@@ -98,8 +98,8 @@ const beasiswaNTB = () => {
               </AccordionDetails>
             </Accordion>
             <Accordion
-              expanded={expanded === "panel3"}
-              // expanded={true}
+              // expanded={expanded === "panel3"}
+              expanded={true}
               onChange={handleChange("panel3")}
             >
               <AccordionSummary
@@ -155,8 +155,8 @@ const beasiswaNTB = () => {
               </AccordionDetails>
             </Accordion>
             <Accordion
-              expanded={expanded === "panel4"}
-              // expanded={true}
+              // expanded={expanded === "panel4"}
+              expanded={true}
               onChange={handleChange("panel4")}
             >
               <AccordionSummary
@@ -211,8 +211,8 @@ const beasiswaNTB = () => {
               </AccordionDetails>
             </Accordion>
             <Accordion
-              expanded={expanded === "panel5"}
-              // expanded={true}
+              // expanded={expanded === "panel5"}
+              expanded={true}
               onChange={handleChange("panel5")}
             >
               <AccordionSummary

@@ -6,12 +6,6 @@ module.exports = {
   async redirects() {
     return [
       {
-        source: "/sosialisasibeasiswantb2021",
-        destination:
-          "https://docs.google.com/forms/d/e/1FAIpQLSf9t9rrykGFUFJcuNYP7x3kSTt9DFbK34Thh0oNKwzzQgu-tQ/viewform?usp=sf_link",
-        permanent: true,
-      },
-      {
         source: "/tracerawardee2021/rusia",
         destination:
           "https://docs.google.com/forms/d/e/1FAIpQLSfUhr6kOfkA5vqbWlCMXS4jQOBjUurTJnlJweF5E0TfIgSbvg/viewform?usp=sf_link",
@@ -41,12 +35,12 @@ module.exports = {
           "https://docs.google.com/forms/d/e/1FAIpQLSfaLjBQbO95pW-dX5NqUZJWNwIPmwDwDwZNtqRX1zOJ09XbXA/viewform?usp=sf_link",
         permanent: true,
       },
-      {
-        source: "/toeflpredictiontest",
-        destination:
-          "https://docs.google.com/forms/d/e/1FAIpQLSf4W1PnfwbL5svQtJHftFSS8_9r5aupcPjFewgN9yuDyEOUGA/viewform?usp=sf_link",
-        permanent: true,
-      },
+      // {
+      //   source: "/toeflpredictiontest",
+      //   destination:
+      //     "https://docs.google.com/forms/d/e/1FAIpQLSf4W1PnfwbL5svQtJHftFSS8_9r5aupcPjFewgN9yuDyEOUGA/viewform?usp=sf_link",
+      //   permanent: true,
+      // },
       {
         source: "/oprecpesertarumahbahasa2021",
         destination:

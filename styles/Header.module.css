@@ -77,6 +77,11 @@
   align-items: center;
   margin: 0 16px;
   font-weight: 500;
+  color: #fff !important;
+  font-family: Poppins, sans-serif !important;
+  text-transform: capitalize !important;
+  font-size: 16px !important;
+  cursor: pointer;
 }
 
 .menu_notdrop{
@@ -98,6 +103,7 @@
   color: #fff !important;
   text-transform: capitalize !important;
   font-size: 16px !important;
+  margin-right: 16px !important;
 }
 
 .menu_other:hover{
