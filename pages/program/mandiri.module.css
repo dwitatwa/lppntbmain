@@ -77,3 +77,9 @@
   margin: 0 auto;
   overflow-x: auto;
 }
+
+@media screen and (max-width:600px) {
+  .title h1{
+    font-size: 23px;
+  }
+}
