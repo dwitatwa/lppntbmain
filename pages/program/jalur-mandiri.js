@@ -2,7 +2,6 @@ import React from "react";
 import s from "./mandiri.module.css";
 import { createClient } from "contentful";
 import Head from "next/head";
-import EuroIcon from "@material-ui/icons/Euro";
 
 export async function getStaticProps() {
   const client = createClient({
@@ -107,6 +106,7 @@ export default function jalurMandiri({ vistula, nicolaus }) {
                       <li>Tourism and Sport Management</li>
                       <li>International Politics and Diplomacy</li>
                       <li>English Studies</li>
+                      <li>Chemistry</li>
                     </ol>
                   </td>
                   <td className={s.td}>
@@ -133,25 +133,9 @@ export default function jalurMandiri({ vistula, nicolaus }) {
             </table>
           </div>
         </div>
-        <div className={s.content} style={{ marginBottom: "20px" }}>
-          <h3>Apa yang akan didapatkan?</h3>
-          <hr style={{ border: "1px solid rgb(225,225,225)" }} />
-          Yang akan didapatkan oleh Awardee melalui program ini adalah :
-          <ol>
-            <li>Bantuan saat pendaftaran ke kampus</li>
-            <li>Bantuan dalam pembuatan Visa</li>
-            <li>
-              Persiapan keberangkatan seperti Bimbingan Teknik (BimTek) dan Pre
-              Departure Training (PDT)
-            </li>
-            <li>
-              Previlege yang sama dengan Awardee yang melalui jalur Beasiswa
-            </li>
-          </ol>
-        </div>
         <div
           className={s.content}
-          style={{ marginBottom: "20px", paddingBottom: "30px" }}
+          style={{ marginBottom: "20px", paddingBottom: "40px" }}
         >
           <h3>Biaya yang perlu dipersiapkan</h3>
           <hr style={{ border: "1px solid rgb(225,225,225)" }} />
@@ -174,7 +158,7 @@ export default function jalurMandiri({ vistula, nicolaus }) {
               <li>Biaya Pendidikan (Lihat tabel dibawah)</li>
             </ol>
             <div className={s.res_table}>
-              <table className={s.table}>
+              <table className={`${s.table} ${s.table_tuition}`}>
                 <thead>
                   <tr className={s.tr}>
                     <th className={s.th}>Kampus</th>
@@ -188,61 +172,147 @@ export default function jalurMandiri({ vistula, nicolaus }) {
                       <img src={"https:" + vistula.fields.file.url} alt="" />
                     </td>
                     <td className={s.td}>
-                      <ol>
+                      <ul>
                         <li>Computer Engineering</li>
                         <li>Energy Management</li>
-                      </ol>
+                      </ul>
                     </td>
                     <td className={s.td}>
                       <ul>
                         <li>
-                          Registration Fee : 200{" "}
-                          <EuroIcon style={{ fontSize: "16px" }} />
+                          Registration Fee : <b>200 EUR</b>{" "}
                         </li>
                         <li>
-                          Tuition Fee/Year : 3800{" "}
-                          <EuroIcon style={{ fontSize: "16px" }} />
+                          Tuition Fee/Year : <b>3800 EUR</b>
                         </li>
                         <li>
-                          Tuition Fee/Semester : 2000{" "}
-                          <EuroIcon style={{ fontSize: "16px" }} />
+                          Tuition Fee/Semester : <b>2000 EUR</b>{" "}
                         </li>
                       </ul>
                     </td>
                   </tr>
                   <tr>
-                    <td className={s.td} rowSpan="2">
+                    <td className={s.td} rowSpan="4">
                       <img src={"https:" + nicolaus.fields.file.url} alt="" />
                     </td>
                     <td className={s.td}>
-                      <ol>
+                      <ul>
                         <li>International Economics and Finance</li>
                         <li>Bussines Administration</li>
                         <li>Tourism and Sport Management</li>
-                      </ol>
+                      </ul>
                     </td>
                     <td className={s.td}>
+                      Tuition Fee dibayarkan pertahun berdasarkan jumlah Awardee
+                      yang diterima :
                       <ul>
                         <li>
-                          Untuk double degree business administrasi maksimal 10
-                          orang melalui seleksi kampus
+                          {" "}
+                          Jika &le; 9 : <b>4320 EUR</b>
+                        </li>
+                        <li>
+                          {" "}
+                          Jika &ge; 10 dan &le; 15 : <b>3024 EUR</b>
+                        </li>
+                        <li>
+                          Jika &ge; 16 : <b>2160 EUR</b>
                         </li>
                       </ul>
                     </td>
                   </tr>
                   <tr>
                     <td className={s.td}>
-                      <ol>
+                      <ul>
                         <li>International Politics and Diplomacy</li>
-                        <li>English Studies</li>
-                      </ol>
+                      </ul>
                     </td>
-                    <td className={s.td}>Tuition FEe</td>
+                    <td className={s.td} style={{ textAlign: "center" }}>
+                      <b>1200 EUR</b> per tahun
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className={s.td}>
+                      <ul>
+                        <li>English Studies</li>
+                      </ul>
+                    </td>
+                    <td className={s.td} style={{ textAlign: "center" }}>
+                      <b>1354 EUR</b> per tahun. Maksimal Awardee yang bisa
+                      diterima adalah 7 Orang
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className={s.td}>
+                      <ul>
+                        <li>Chemistry</li>
+                      </ul>
+                    </td>
+                    <td className={s.td}>
+                      Tuition Fee dibayarkan pertahun berdasarkan jumlah Awardee
+                      yang diterima :
+                      <ul>
+                        <li>
+                          {" "}
+                          Jika &le; 8 : <b>3910 EUR</b>
+                        </li>
+                        <li>
+                          {" "}
+                          Jika &ge; 9 dan &le; 16 : <b>2932,50 EUR</b>
+                        </li>
+                        <li>
+                          Jika &ge; 17 : <b>2346 EUR</b>
+                        </li>
+                      </ul>
+                    </td>
                   </tr>
                 </tbody>
               </table>
             </div>
           </div>
+        </div>
+        <div className={s.content} style={{ marginBottom: "20px" }}>
+          <h3>Apa yang akan didapatkan?</h3>
+          <hr style={{ border: "1px solid rgb(225,225,225)" }} />
+          Yang akan didapatkan oleh Awardee melalui program ini adalah :
+          <ol>
+            <li>Bantuan saat pendaftaran ke kampus</li>
+            <li>Bantuan dalam pembuatan Visa</li>
+            <li>
+              Persiapan keberangkatan seperti Bimbingan Teknik (BimTek) dan Pre
+              Departure Training (PDT)
+            </li>
+            <li>
+              Previlege yang sama dengan Awardee yang melalui jalur Beasiswa
+            </li>
+          </ol>
+        </div>
+        <div className={s.content} style={{ marginBottom: "20px" }}>
+          <h3>Persyaratan yang harus dipenuhi</h3>
+          <hr style={{ border: "1px solid rgb(225,225,225)" }} />
+          Beberapa persyaratan yang harus dipenuhi oleh calon Awardee :
+          <ol>
+            <li>
+              Memiliki sertifikat bahasa dengan minimal CEFR B2 (IELTS 5.5 atau
+              MUET Band 4.5)
+            </li>
+            <li>
+              Menyerahkan Ijazah S1 dengan bidang yang sama dengan Jurusan yang
+              ingin diambil
+            </li>
+            <li>
+              Jika Ijazah menggunakan Bahasa Indonesia atau selain Bahasa
+              Inggris, maka perlu diterjemahkan kedalam Bahasa Inggris (
+              <i>Sworn Translation</i>)
+            </li>
+            <li>
+              Harus memiliki asuransi kesehatan dan kecelakaan dengan jumlah
+              minimal 100.000 USD
+            </li>
+            <li>
+              Menyerahkan Berkas yang diperlukan sebelum tanggal 30 Juni melalui{" "}
+              <i>Dreamapply Admission System</i>
+            </li>
+          </ol>
         </div>
       </div>
     </div>
