@@ -53,6 +53,12 @@ module.exports = {
           "https://docs.google.com/forms/d/e/1FAIpQLSd11JqblXxoWjIJ4-JprV0ql_mgVzBVpbRqqDE8hCBLjDoZEg/viewform?usp=sf_link",
         permanent: true,
       },
+      {
+        source: "/KonfirmasiSeleksiBerkas2021",
+        destination:
+          "https://docs.google.com/forms/d/e/1FAIpQLSdTw30Bx1oHfWkNnWa6RA7_z6c8KBqdtGPtiwEqm0BShddhNA/viewform?usp=sf_link",
+        permanent: true,
+      },
     ];
   },
 };
