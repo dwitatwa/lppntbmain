@@ -41,8 +41,8 @@ export default function jalurMandiri({ vistula, nicolaus }) {
             khususnya dan Indonesia pada umumnya untuk melanjutkan studi ke luar
             negeri melalui kerjasama yang sudah dilakukan oleh LPPNTB dengan
             Negara dan Kampus terkait. Program ini merupakan program{" "}
-            <b>Non Beasiswa</b>, akan tetapi awardee tetap mendapatkan{" "}
-            <i>previlege</i> yang diberikan sesuai dengan MoU antara LPPNTB
+            <b>Non Beasiswa</b>, akan tetapi Mahasiswa tetap mendapatkan{" "}
+            <i>privilege</i> yang diberikan sesuai dengan MoU antara LPPNTB
             dengan Negara atau Kampus terkait.
           </p>
         </div>
@@ -94,30 +94,65 @@ export default function jalurMandiri({ vistula, nicolaus }) {
               </thead>
               <tbody>
                 <tr className={s.tr}>
-                  <td className={s.td}>
+                  <td className={s.td} rowSpan="2">
                     <img src={"https:" + vistula.fields.file.url} alt="" />
                   </td>
                   <td className={s.td}>
                     <ul>
                       <li>Computer Engineering</li>
-                      <li>Energy Management</li>
+                      Sub Major di Computer Engineering:
+                      <ol>
+                        <li>
+                          Design and Applications of Wireless Networks For
+                          Internet of Things.
+                        </li>
+                        <li>Design and Applications of Mobile Applications</li>
+                        <li>
+                          Cybersecurity and Reliability of Information and
+                          Industrial Systems
+                        </li>
+                        <li>
+                          Applied Data Science in Collaboration With Magnimind
+                          Academy From Silicon Valley.
+                        </li>
+                      </ol>
                     </ul>
                   </td>
                   <td className={s.td}>
-                    Program Computer Engineering (Master) sudah termasuk Magang
+                    <ul>
+                      <li>
+                        Program Computer Engineering (Master) sudah termasuk
+                        Magang di perusahaan yang berada di Vistula.
+                      </li>
+                      <li>
+                        Mahasiswa tetap mendapatkan Kesempatan untuk mengikuti
+                        Program Erasmus.
+                      </li>
+                      <li>
+                        Mendapatkan Sertifikat Langsung dari Silicon Valley
+                        untuk Data Science
+                      </li>
+                    </ul>
                   </td>
-                  <td className={s.td}>
+                  <td className={s.td} rowSpan="2">
                     <ul>
                       <li>
                         Registration Fee : <b>200 EUR</b>{" "}
                       </li>
                       <li>
-                        Tuition Fee/Year : <b>3800 EUR</b>
-                      </li>
-                      <li>
-                        Tuition Fee/Semester : <b>2000 EUR</b>{" "}
+                        Tuition Fee/Year : <b>2000 EUR</b>
                       </li>
                     </ul>
+                  </td>
+                </tr>
+                <tr>
+                  <td className={s.td}>
+                    <ul>
+                      <li>Energy Management</li>
+                    </ul>
+                  </td>
+                  <td className={s.td} style={{ textAlign: "center" }}>
+                    ---
                   </td>
                 </tr>
                 <tr>
