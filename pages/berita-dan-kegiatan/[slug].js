@@ -4,6 +4,8 @@ import s from "./DetailBerita.module.css";
 import { documentToReactComponents } from "@contentful/rich-text-react-renderer";
 import { FacebookShareButton, WhatsappShareButton } from "react-share";
 import { FacebookIcon, WhatsappIcon } from "react-share";
+import Footer from "../../components/Footer";
+import Header from "../../components/Header";
 
 const client = createClient({
   space: process.env.CONTENTFUL_SPACE_ID,
@@ -42,35 +44,39 @@ export async function getStaticProps({ params }) {
 
 const Details = ({ berita }) => {
   return (
-    <div className={s.main}>
-      <Head>
-        <title>LPPNTB - {berita.fields.judul}</title>
-      </Head>
-      <div className={s.background}></div>
-      <div className={s.container}>
-        <h1>{berita.fields.judul}</h1>
-        <div className={s.tanggal_terbit}>
-          Mataram,
-          {berita.fields.tanggalTerbit.split("-").reverse("").join("-")}
-        </div>
-        <img
-          src={"https:" + berita.fields.cover.fields.file.url}
-          alt=""
-          width="100%"
-        />
-        <div className={s.isi_berita}>
-          {documentToReactComponents(berita.fields.isi)}
-        </div>
-        <div className={s.share}>
-          <span>Share :</span>
-          <FacebookShareButton url={"https://lppntb.com"}>
-            <FacebookIcon round={true} width="32" height="32"></FacebookIcon>
-          </FacebookShareButton>
-          <WhatsappShareButton url={"https://lppntb.com"}>
-            <WhatsappIcon round={true} width="32" height="32"></WhatsappIcon>
-          </WhatsappShareButton>
+    <div>
+      <Header />
+      <div className={s.main}>
+        <Head>
+          <title>LPPNTB - {berita.fields.judul}</title>
+        </Head>
+        <div className={s.background}></div>
+        <div className={s.container}>
+          <h1>{berita.fields.judul}</h1>
+          <div className={s.tanggal_terbit}>
+            Mataram,
+            {berita.fields.tanggalTerbit.split("-").reverse("").join("-")}
+          </div>
+          <img
+            src={"https:" + berita.fields.cover.fields.file.url}
+            alt=""
+            width="100%"
+          />
+          <div className={s.isi_berita}>
+            {documentToReactComponents(berita.fields.isi)}
+          </div>
+          <div className={s.share}>
+            <span>Share :</span>
+            <FacebookShareButton url={"https://lppntb.com"}>
+              <FacebookIcon round={true} width="32" height="32"></FacebookIcon>
+            </FacebookShareButton>
+            <WhatsappShareButton url={"https://lppntb.com"}>
+              <WhatsappIcon round={true} width="32" height="32"></WhatsappIcon>
+            </WhatsappShareButton>
+          </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

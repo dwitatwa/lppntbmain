@@ -14,9 +14,9 @@ const Layout = ({ children }) => {
         />
         <link rel="icon" href="/favicon_lpp.ico" />
       </Head>
-      <Header />
+      {/* <Header /> */}
       {children}
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };
