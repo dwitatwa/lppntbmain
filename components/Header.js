@@ -89,11 +89,13 @@ const Header = () => {
             <Button className={s.menu_dropdown}>
               <Dropdown title="Program">
                 <Link href="/program/beasiswa-ntb">
-                  <a href="/program/beasiswa-ntb">Beasiswa NTB</a>
-                  {/* <a href="/program/rumah-bahasa">Rumah Bahasa</a> */}
+                  <a>Beasiswa NTB</a>
                 </Link>
                 <Link href="/program/rumah-bahasa">
                   <a>Rumah Bahasa</a>
+                </Link>
+                <Link href="/program/jalur-mandiri">
+                  <a>Jalur Mandiri</a>
                 </Link>
               </Dropdown>
             </Button>

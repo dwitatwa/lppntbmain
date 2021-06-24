@@ -1,5 +1,4 @@
 import React from "react";
-import clsx from "clsx";
 import Drawer from "@material-ui/core/Drawer";
 import Button from "@material-ui/core/Button";
 import List from "@material-ui/core/List";
@@ -47,11 +46,11 @@ export default function DrawerMenu() {
             <Link href="/program/beasiswa-ntb">
               <a onClick={toggleDrawer(anchor, false)}>Beasiswa NTB</a>
             </Link>
-            <Link
-              href="/program/rumah-bahasa"
-              onClick={toggleDrawer(anchor, false)}
-            >
+            <Link href="/program/rumah-bahasa">
               <a onClick={toggleDrawer(anchor, false)}>Rumah Bahasa</a>
+            </Link>
+            <Link href="/program/jalur-mandiri">
+              <a onClick={toggleDrawer(anchor, false)}>Jalur Mandiri</a>
             </Link>
           </Dropdown>
         </Button>
