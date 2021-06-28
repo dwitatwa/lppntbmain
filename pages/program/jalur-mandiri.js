@@ -399,7 +399,7 @@ export default function jalurMandiri({ vistula, nicolaus }) {
             tanggal <b>15 Juli 2021</b> untuk Intake Oktober 2021.
             <br /> Untuk Pendaftaran, silahkan{" "}
             <a
-              href="#"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSfTOHwHQ1n0_xGnCKBCGoTvfSqRsx6gCa8E7hPVGI2-om1W_g/viewform?usp=sf_link"
               style={{
                 color: "#0e2b5c",
                 fontWeight: "600",
