@@ -141,6 +141,8 @@ export default function jalurMandiri({ vistula, nicolaus }) {
                       </ul>
                     </td>
                     <td className={s.td} rowSpan="2">
+                      Tuition Fee yang tertera di Booklet merupakan biaya at
+                      cost. Sedangkan yang melalui LPPNTB adalah:
                       <ul>
                         <li>
                           Registration Fee : <b>200 EUR</b>{" "}
@@ -188,6 +190,11 @@ export default function jalurMandiri({ vistula, nicolaus }) {
                           oleh International Students, namun demikian kesempatan
                           mendapatkan program Erasmus selama satu atau dua
                           semester tetap terbuka lebar
+                        </li>
+                        <li>
+                          Khusus untuk yang discount 50% akan dikenakan pajak
+                          oleh pemerintah Polandia sebesar 340 zloty yang
+                          pembayarannya akan dikenakan pada tahun ajaran kedua
                         </li>
                       </ul>
                     </td>
@@ -321,12 +328,76 @@ export default function jalurMandiri({ vistula, nicolaus }) {
               </li>
             </ol>
           </div>
+          <div className={s.content} style={{ marginBottom: "20px" }}>
+            <h3>Booklet Informasi</h3>
+            <hr style={{ border: "1px solid rgb(225,225,225)" }} />
+            <ul>
+              <li>
+                Booklet Informasi Jurusan Computer Engineering, Vistula
+                University{" "}
+                <a
+                  href="https://drive.google.com/file/d/15prCkvqyDbJjOLVcJF0oTG1wZXezupqz/view?usp=sharing"
+                  style={{
+                    color: "#0e2b5c",
+                    fontWeight: "600",
+                    textDecoration: "underline",
+                  }}
+                  target="_blank"
+                >
+                  Download Disini
+                </a>
+              </li>
+              <li>
+                Booklet Informasi Jurusan Energy Managament, Vistula University{" "}
+                <a
+                  href="https://drive.google.com/file/d/1j4ruH1dD8AQIWrQasnxpKXMAgx6E4d8h/view?usp=sharing"
+                  style={{
+                    color: "#0e2b5c",
+                    fontWeight: "600",
+                    textDecoration: "underline",
+                  }}
+                  target="_blank"
+                >
+                  Download Disini
+                </a>
+              </li>
+              <li>
+                Booklet Informasi Fakultas Economic Sciences and Management, NCU{" "}
+                <a
+                  href="https://drive.google.com/file/d/1Po0_JVRfUbiByMYG4t681UYHR5PtqPJO/view?usp=sharing"
+                  style={{
+                    color: "#0e2b5c",
+                    fontWeight: "600",
+                    textDecoration: "underline",
+                  }}
+                  target="_blank"
+                >
+                  Download Disini
+                </a>
+              </li>
+              <li>
+                Informasi untuk Jurusan International Politics and Diplomacy,
+                NCU{" "}
+                <a
+                  href="https://drive.google.com/file/d/1bu9A8ew86w794EFE2QgnUcwA_vDY0Xyh/view?usp=sharing"
+                  style={{
+                    color: "#0e2b5c",
+                    fontWeight: "600",
+                    textDecoration: "underline",
+                  }}
+                  target="_blank"
+                >
+                  Download Disini
+                </a>
+              </li>
+            </ul>
+          </div>
           <div className={s.content}>
             <h3>Pendaftaran Program Jalur Mandiri</h3>
             <hr style={{ border: "1px solid rgb(225,225,225)" }} />
             Pendaftaran untuk program ini dilakukan melalui online paling lambat
-            tanggal <b>15 Juli 2021</b> untuk Intake Oktober 2021. Untuk
-            Pendaftaran, silahkan{" "}
+            tanggal <b>15 Juli 2021</b> untuk Intake Oktober 2021.
+            <br /> Untuk Pendaftaran, silahkan{" "}
             <a
               href="#"
               style={{
