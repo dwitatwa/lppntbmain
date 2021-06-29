@@ -62,7 +62,7 @@ export default function jalurMandiri({ vistula, nicolaus }) {
                 Pre Departure Training (PDT)
               </li>
               <li>
-                Previlege yang sama dengan Awardee yang melalui jalur Beasiswa
+                Privilege yang sama dengan Awardee yang melalui jalur Beasiswa
               </li>
             </ol>
           </div>
