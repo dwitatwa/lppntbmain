@@ -245,9 +245,8 @@ export default function jalurMandiri({ vistula, nicolaus }) {
                     <td className={s.td}>
                       <ul>
                         <li style={{ marginBottom: "20px" }}>
-                          <b>1500 EUR</b> per tahun. Khusus untuk Intake
-                          Sepetember 2021 tution fee yang dibayarkan adalah 1200
-                          EUR.
+                          <b>1500 EUR</b> per tahun. Khusus untuk Intake Oktober
+                          2021 tution fee yang dibayarkan adalah 1200 EUR.
                         </li>
                         <li>
                           Biaya Administrasi (Sekali Bayar) :{" "}
@@ -341,7 +340,7 @@ export default function jalurMandiri({ vistula, nicolaus }) {
             <h3>Pendaftaran Program Jalur Mandiri</h3>
             <hr style={{ border: "1px solid rgb(225,225,225)" }} />
             Pendaftaran untuk program ini dilakukan melalui online paling lambat
-            tanggal <b>15 Juli 2021</b> untuk Intake September 2021.
+            tanggal <b>15 Juli 2021</b> untuk Intake Oktober 2021.
             <br /> Untuk Pendaftaran, silahkan{" "}
             <Button
               href="https://docs.google.com/forms/d/e/1FAIpQLSfTOHwHQ1n0_xGnCKBCGoTvfSqRsx6gCa8E7hPVGI2-om1W_g/viewform?usp=sf_link"
