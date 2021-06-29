@@ -324,10 +324,6 @@ export default function jalurMandiri({ vistula, nicolaus }) {
             <div>
               <ol>
                 <li>
-                  Biaya Administrasi (sekali bayar) sebesar{" "}
-                  <b>Rp. 5.000.000,- </b>
-                </li>
-                <li>
                   Biaya hidup perbulan kurang lebih <b>Rp. 8.000.000,- </b>{" "}
                 </li>
                 <li>
