@@ -37,36 +37,6 @@ export default function jalurMandiri({ vistula, nicolaus }) {
           <div className={s.title}>
             <h1>Jalur Mandiri (Non Beasiswa) </h1>
           </div>
-          {/* <div
-            className={s.content}
-            style={{
-              marginBottom: "20px",
-              textAlign: "center",
-              padding: "20px 0px",
-            }}
-          >
-            <Button
-              href="https://docs.google.com/forms/d/e/1FAIpQLSfTOHwHQ1n0_xGnCKBCGoTvfSqRsx6gCa8E7hPVGI2-om1W_g/viewform?usp=sf_link"
-              target="_blank"
-              variant="contained"
-              color="primary"
-              disableElevation
-            >
-              DAFTAR DISINI
-            </Button>
-            <p
-              style={{
-                textAlign: "center",
-                fontSize: "12px",
-                color: "red",
-                margin: "10px 0px 0px 0px",
-                fontWeight: "700",
-              }}
-            >
-              *Sebelum mendaftar, pastikan Anda sudah membaca dan memahami
-              informasi mengenai program mandiri dibawah ini
-            </p>
-          </div> */}
           <div className={s.content} style={{ marginBottom: "20px" }}>
             <h3>Apa itu Jalur Mandiri ?</h3>
             <hr style={{ border: "1px solid rgb(225,225,225)" }} />
