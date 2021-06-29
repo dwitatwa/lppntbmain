@@ -59,6 +59,12 @@ module.exports = {
           "https://docs.google.com/forms/d/e/1FAIpQLSdTw30Bx1oHfWkNnWa6RA7_z6c8KBqdtGPtiwEqm0BShddhNA/viewform?usp=sf_link",
         permanent: true,
       },
+      {
+        source: "/PendaftaranProgramJalurMandiri",
+        destination:
+          "https://docs.google.com/forms/d/e/1FAIpQLSfTOHwHQ1n0_xGnCKBCGoTvfSqRsx6gCa8E7hPVGI2-om1W_g/viewform?usp=sf_link",
+        permanent: true,
+      },
     ];
   },
 };

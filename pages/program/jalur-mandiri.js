@@ -34,7 +34,7 @@ export default function jalurMandiri({ vistula, nicolaus }) {
         <div className={s.background}></div>
         <div className={s.container}>
           <div className={s.title}>
-            <h1>Jalur Mandiri (Non Beasiswa)</h1>
+            <h1>Jalur Mandiri (Non Beasiswa) </h1>
           </div>
           <div className={s.content} style={{ marginBottom: "20px" }}>
             <h3>Apa itu Jalur Mandiri ?</h3>
