@@ -10,6 +10,8 @@ import Image from "next/image";
 import { createClient } from "contentful";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
+import Button from "@material-ui/core/Button";
+import VisibilityIcon from "@material-ui/icons/Visibility";
 
 export async function getStaticProps() {
   const client = createClient({
@@ -182,96 +184,23 @@ const rumahBahasa = ({ image1, image2 }) => {
                 </AccordionSummary>
                 <AccordionDetails>
                   <div>
-                    {/* <ol>
-                    <li>
-                      Memiliki KTP NTB, atau berdomisili paling kurang 2 (dua)
-                      tahun di NTB, atau Diaspora NTB yang dibuktikan dengan
-                      surat pernyataan keluarga yang adalah penduduk NTB (
-                      Khusus untuk Beasiswa Kategori B )
-                    </li>
-                    <li>Ijazah dan Transkrip Nilai Terakhir (Legalisir)</li>
-                    <li>
-                      Surat Rekomendasi dari Dosen, Institusi, atau Tokoh
-                      Masyarakat
-                    </li>
-                    <li>
-                      Sertifikat Bahasa, Skor/Band minimal :
-                      <ul>
-                        <li>TOEFL ITP : 500</li>
-                        <li>IELTS : 5.0</li>
-                        <li>TOEIC : 600</li>
-                        <li>TOEFL IBT : 50</li>
-                      </ul>
-                    </li>
-                    <li>Curriculum Vitae (dalam bahasa inggris)</li>
-                    <li>
-                      Study Plan (dalam bahasa inggris, maksimal satu halaman)
-                    </li>
-                    <li>
-                      Motivation Letter (dalam bahasa inggris, maksimal satu
-                      halaman)
-                    </li>
-                    <li>
-                      Surat Keterangan Sehat dari Puskesmas atau Rumah Sakit
-                    </li>
-                    <li>
-                      Jika sudah mendapatkan gelar S2, tidak boleh mendaftar
-                      untuk jenjang pendidikan yang sama
-                    </li>
-                  </ol> */}
+                    <ul>
+                      <li>
+                        <Button
+                          size="small"
+                          variant="contained"
+                          color="primary"
+                          href="https://drive.google.com/drive/folders/1KfooVITjYMjh_WwxZRXSN3oyNbJnNCMN?usp=sharing"
+                          target="_blank"
+                          disableElevation
+                        >
+                          IELTS PREDIKSI JUNI 2021 &nbsp; <VisibilityIcon />
+                        </Button>
+                      </li>
+                    </ul>
                   </div>
                 </AccordionDetails>
               </Accordion>
-              {/* <Accordion
-              expanded={expanded === "panel5"}
-              // expanded={true}
-              onChange={handleChange("panel5")}
-            >
-              <AccordionSummary
-                expandIcon={<ExpandMoreIcon />}
-                aria-controls="panel1bh-content"
-                id="panel1bh-header"
-              >
-                <Typography className={s.accordion_title}>
-                  Pengumuman Peserta Rumah Bahasa Batch IV Yang Lolos Seleksi
-                </Typography>
-              </AccordionSummary>
-              <AccordionDetails>
-                <ol className={s.list_berkas}>
-                  <li>
-                    <b>Ijazah</b>,&nbsp; <i>Scan, Legalisir</i>
-                  </li>
-                  <li>
-                    <b>Transkrip Nilai</b>,&nbsp; <i>Scan</i>
-                  </li>
-                  <li>
-                    <b>Surat Keterangan Domisili</b>,&nbsp; <i>Scan</i>
-                  </li>
-                  <li>
-                    <b>Surat Rekomendasi</b>,&nbsp; <i>Scan</i>
-                  </li>
-                  <li>
-                    <b>Curriculum Vitae</b>,&nbsp;
-                    <i>Dalam Bahasa Inggris, Satu halaman</i>
-                  </li>
-                  <li>
-                    <b>Study Plan</b>,&nbsp;
-                    <i> Dalam Bahasa Inggris, Satu halaman</i>
-                  </li>
-                  <li>
-                    <b>Motivation Letter</b>,&nbsp;
-                    <i>Dalam Bahasa Inggris, Satu halaman</i>
-                  </li>
-                  <li>
-                    <b>Paspor (Tidak Wajib)</b>,&nbsp; <i>Scan halaman depan</i>
-                  </li>
-                  <li>
-                    <b>Sertifikat Bahasa</b>,&nbsp;
-                    <i>TOEFL ITP / TOEIC / IELTS / MUET / TOEFL IBT</i>
-                  </li>
-                </ol>
-              </AccordionDetails>
-            </Accordion> */}
             </div>
           </div>
         </div>
