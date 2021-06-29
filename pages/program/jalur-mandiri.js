@@ -4,6 +4,7 @@ import { createClient } from "contentful";
 import Head from "next/head";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
+import Button from "@material-ui/core/Button";
 
 export async function getStaticProps() {
   const client = createClient({
@@ -36,6 +37,36 @@ export default function jalurMandiri({ vistula, nicolaus }) {
           <div className={s.title}>
             <h1>Jalur Mandiri (Non Beasiswa) </h1>
           </div>
+          {/* <div
+            className={s.content}
+            style={{
+              marginBottom: "20px",
+              textAlign: "center",
+              padding: "20px 0px",
+            }}
+          >
+            <Button
+              href="https://docs.google.com/forms/d/e/1FAIpQLSfTOHwHQ1n0_xGnCKBCGoTvfSqRsx6gCa8E7hPVGI2-om1W_g/viewform?usp=sf_link"
+              target="_blank"
+              variant="contained"
+              color="primary"
+              disableElevation
+            >
+              DAFTAR DISINI
+            </Button>
+            <p
+              style={{
+                textAlign: "center",
+                fontSize: "12px",
+                color: "red",
+                margin: "10px 0px 0px 0px",
+                fontWeight: "700",
+              }}
+            >
+              *Sebelum mendaftar, pastikan Anda sudah membaca dan memahami
+              informasi mengenai program mandiri dibawah ini
+            </p>
+          </div> */}
           <div className={s.content} style={{ marginBottom: "20px" }}>
             <h3>Apa itu Jalur Mandiri ?</h3>
             <hr style={{ border: "1px solid rgb(225,225,225)" }} />
@@ -337,6 +368,23 @@ export default function jalurMandiri({ vistula, nicolaus }) {
             </div>
           </div>
           <div className={s.content} style={{ marginBottom: "20px" }}>
+            <h3>Pendaftaran Program Jalur Mandiri</h3>
+            <hr style={{ border: "1px solid rgb(225,225,225)" }} />
+            Pendaftaran untuk program ini dilakukan melalui online paling lambat
+            tanggal <b>15 Juli 2021</b> untuk Intake Oktober 2021.
+            <br /> Untuk Pendaftaran, silahkan{" "}
+            <Button
+              href="https://docs.google.com/forms/d/e/1FAIpQLSfTOHwHQ1n0_xGnCKBCGoTvfSqRsx6gCa8E7hPVGI2-om1W_g/viewform?usp=sf_link"
+              target="_blank"
+              variant="contained"
+              color="primary"
+              size="small"
+              disableElevation
+            >
+              KLIK DISINI
+            </Button>
+          </div>
+          <div className={s.content} style={{ marginBottom: "20px" }}>
             <h3>Persyaratan</h3>
             <hr style={{ border: "1px solid rgb(225,225,225)" }} />
             Persyaratan yang harus dipenuhi oleh calon Mahasiswa :
@@ -428,24 +476,6 @@ export default function jalurMandiri({ vistula, nicolaus }) {
                 </a>
               </li> */}
             </ul>
-          </div>
-          <div className={s.content}>
-            <h3>Pendaftaran Program Jalur Mandiri</h3>
-            <hr style={{ border: "1px solid rgb(225,225,225)" }} />
-            Pendaftaran untuk program ini dilakukan melalui online paling lambat
-            tanggal <b>15 Juli 2021</b> untuk Intake Oktober 2021.
-            <br /> Untuk Pendaftaran, silahkan{" "}
-            <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSfTOHwHQ1n0_xGnCKBCGoTvfSqRsx6gCa8E7hPVGI2-om1W_g/viewform?usp=sf_link"
-              style={{
-                color: "#0e2b5c",
-                fontWeight: "600",
-                textDecoration: "underline",
-              }}
-              target="_blank"
-            >
-              Klik Disini
-            </a>
           </div>
         </div>
       </div>
