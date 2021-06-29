@@ -364,8 +364,8 @@ export default function jalurMandiri({ vistula, nicolaus }) {
                 <i>Sworn Translation</i>).
               </li>
               <li>
-                Harus memiliki asuransi kesehatan dan kecelakaan dengan jumlah
-                minimal 100.000 USD (dipenuhi 1 tahun setelah keberangkatan).
+                Memiliki asuransi kesehatan dan kecelakaan dengan jumlah minimal
+                100.000 USD (dipenuhi 1 tahun setelah keberangkatan).
               </li>
             </ol>
           </div>
