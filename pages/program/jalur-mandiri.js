@@ -73,12 +73,12 @@ export default function jalurMandiri({ vistula, nicolaus }) {
             <p>
               Program Jalur Mandiri (Non Beasiswa) merupakan program baru dari
               LPPNTB yang memberikan kesempatan kepada seluruh rakyat Indonesia
-              pada umumnya untuk melanjutkan studi ke luar negeri melalui
-              kerjasama yang sudah dilakukan oleh LPPNTB dengan Negara dan
-              Kampus terkait. Program ini merupakan program <b>Non Beasiswa</b>,
-              akan tetapi Mahasiswa tetap mendapatkan <i>privilege</i> yang
-              diberikan sesuai dengan MoU antara LPPNTB dengan Negara atau
-              Kampus terkait.
+              pada umumnya untuk melanjutkan studi jenjang S2 ke luar negeri
+              melalui kerjasama yang sudah dilakukan oleh LPPNTB dengan Negara
+              dan Kampus terkait. Program ini merupakan program{" "}
+              <b>Non Beasiswa</b>, akan tetapi Mahasiswa tetap mendapatkan{" "}
+              <i>privilege</i> yang diberikan sesuai dengan MoU antara LPPNTB
+              dengan Negara atau Kampus terkait.
             </p>
           </div>
           <div className={s.content} style={{ marginBottom: "20px" }}>
