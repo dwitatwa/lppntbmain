@@ -93,7 +93,7 @@ export default function jalurMandiri({ vistula, nicolaus }) {
                     <th className={s.th}>Universitas</th>
                     <th className={s.th}>Jurusan yang dibuka</th>
                     <th className={s.th}>Catatan</th>
-                    <th className={s.th}>Biaya Pendidikan</th>
+                    <th className={s.th}>Biaya Pendidikan dan Administrasi</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -141,14 +141,22 @@ export default function jalurMandiri({ vistula, nicolaus }) {
                       </ul>
                     </td>
                     <td className={s.td} rowSpan="2">
-                      Tuition Fee yang tertera di Booklet merupakan biaya at
-                      cost. Sedangkan yang melalui LPPNTB adalah:
                       <ul>
-                        <li>
-                          Registration Fee : <b>200 EUR</b>{" "}
+                        <li style={{ marginBottom: "20px" }}>
+                          Tuition Fee yang tertera di Booklet merupakan biaya at
+                          cost. Sedangkan yang melalui LPPNTB adalah:
+                          <ul>
+                            <li>
+                              Registration Fee : <b>200 EUR</b>{" "}
+                            </li>
+                            <li>
+                              Tuition Fee/Year : <b>2000 EUR</b>
+                            </li>
+                          </ul>
                         </li>
                         <li>
-                          Tuition Fee/Year : <b>2000 EUR</b>
+                          Biaya Administrasi (Sekali Bayar) :{" "}
+                          <b>Rp. 5.000.000,- </b>
                         </li>
                       </ul>
                     </td>
@@ -199,19 +207,27 @@ export default function jalurMandiri({ vistula, nicolaus }) {
                       </ul>
                     </td>
                     <td className={s.td}>
-                      Tuition Fee dibayarkan per tahun berdasarkan jumlah
-                      Mahasiswa yang diterima :
                       <ul>
-                        <li>
-                          {" "}
-                          Jika &le; 9 : <b>4320 EUR</b>
+                        <li style={{ marginBottom: "20px" }}>
+                          Besaran Tuition Fee per tahun berdasarkan kuota
+                          Mahasiswa yang diterima oleh NCU dari LPPNTB :
+                          <ul>
+                            <li>
+                              {" "}
+                              Jika &le; 9 : <b>4320 EUR</b>
+                            </li>
+                            <li>
+                              {" "}
+                              Jika &ge; 10 dan &le; 15 : <b>3024 EUR</b>
+                            </li>
+                            <li>
+                              Jika &ge; 16 : <b>2160 EUR</b>
+                            </li>
+                          </ul>
                         </li>
                         <li>
-                          {" "}
-                          Jika &ge; 10 dan &le; 15 : <b>3024 EUR</b>
-                        </li>
-                        <li>
-                          Jika &ge; 16 : <b>2160 EUR</b>
+                          Biaya Administrasi (Sekali Bayar) :{" "}
+                          <b>Rp. 5.000.000,- </b>
                         </li>
                       </ul>
                     </td>
@@ -225,8 +241,18 @@ export default function jalurMandiri({ vistula, nicolaus }) {
                     <td className={s.td} style={{ textAlign: "center" }}>
                       ---
                     </td>
-                    <td className={s.td} style={{ textAlign: "center" }}>
-                      <b>1200 EUR</b> per tahun
+                    <td className={s.td}>
+                      <ul>
+                        <li style={{ marginBottom: "20px" }}>
+                          <b>1500 EUR</b> per tahun. Khusus untuk Intake
+                          Sepetember 2021 tution fee yang dibayarkan adalah 1200
+                          EUR.
+                        </li>
+                        <li>
+                          Biaya Administrasi (Sekali Bayar) :{" "}
+                          <b>Rp. 5.000.000,- </b>
+                        </li>
+                      </ul>
                     </td>
                   </tr>
                   <tr>
@@ -238,8 +264,16 @@ export default function jalurMandiri({ vistula, nicolaus }) {
                     <td className={s.td} style={{ textAlign: "center" }}>
                       Maksimal Mahasiswa yang bisa diterima adalah 7 Orang
                     </td>
-                    <td className={s.td} style={{ textAlign: "center" }}>
-                      <b>1354 EUR</b> per tahun.
+                    <td className={s.td}>
+                      <ul>
+                        <li style={{ marginBottom: "20px" }}>
+                          <b>1354 EUR</b> per tahun.
+                        </li>
+                        <li>
+                          Biaya Administrasi (Sekali Bayar) :{" "}
+                          <b>Rp. 5.000.000,- </b>
+                        </li>
+                      </ul>
                     </td>
                   </tr>
                   <tr>
@@ -252,19 +286,27 @@ export default function jalurMandiri({ vistula, nicolaus }) {
                       ---
                     </td>
                     <td className={s.td}>
-                      Tuition Fee dibayarkan pertahun berdasarkan jumlah
-                      Mahasiswa yang diterima :
                       <ul>
-                        <li>
-                          {" "}
-                          Jika &le; 8 : <b>3910 EUR</b>
+                        <li style={{ marginBottom: "20px" }}>
+                          Besaran Tuition Fee per tahun berdasarkan kuota
+                          Mahasiswa yang diterima oleh NCU dari LPPNTB :
+                          <ul>
+                            <li>
+                              {" "}
+                              Jika &le; 8 : <b>3910 EUR</b>
+                            </li>
+                            <li>
+                              {" "}
+                              Jika &ge; 9 dan &le; 16 : <b>2932,50 EUR</b>
+                            </li>
+                            <li>
+                              Jika &ge; 17 : <b>2346 EUR</b>
+                            </li>
+                          </ul>
                         </li>
                         <li>
-                          {" "}
-                          Jika &ge; 9 dan &le; 16 : <b>2932,50 EUR</b>
-                        </li>
-                        <li>
-                          Jika &ge; 17 : <b>2346 EUR</b>
+                          Biaya Administrasi (Sekali Bayar) :{" "}
+                          <b>Rp. 5.000.000,- </b>
                         </li>
                       </ul>
                     </td>
@@ -299,17 +341,16 @@ export default function jalurMandiri({ vistula, nicolaus }) {
             </div>
           </div>
           <div className={s.content} style={{ marginBottom: "20px" }}>
-            <h3>Persyaratan yang harus dipenuhi</h3>
+            <h3>Persyaratan</h3>
             <hr style={{ border: "1px solid rgb(225,225,225)" }} />
-            Beberapa persyaratan yang harus dipenuhi oleh calon Mahasiswa :
+            Persyaratan yang harus dipenuhi oleh calon Mahasiswa :
             <ol>
               <li>
-                Memiliki sertifikat bahasa dengan minimal CEFR B2 (IELTS 5.5
-                atau MUET Band 4.5)
+                Memiliki sertifikat bahasa dengan minimal CEFR B2 (IELTS 5.5 /
+                MUET Band 4.5/TOEFL ITP 543).
               </li>
               <li>
-                Menyerahkan Ijazah S1 dengan bidang yang sama dengan Jurusan
-                yang ingin diambil.
+                Memiliki Ijazah S1 yang linier dengan bidang yang ingin diambil.
               </li>
               <li>
                 Untuk Computer Engineering, Mahasiswa harus merupakan lulusan
@@ -320,11 +361,11 @@ export default function jalurMandiri({ vistula, nicolaus }) {
               <li>
                 Jika Ijazah menggunakan Bahasa Indonesia atau selain Bahasa
                 Inggris, maka perlu diterjemahkan kedalam Bahasa Inggris (
-                <i>Sworn Translation</i>)
+                <i>Sworn Translation</i>).
               </li>
               <li>
                 Harus memiliki asuransi kesehatan dan kecelakaan dengan jumlah
-                minimal 100.000 USD
+                minimal 100.000 USD (dipenuhi 1 tahun setelah keberangkatan).
               </li>
             </ol>
           </div>
@@ -375,7 +416,7 @@ export default function jalurMandiri({ vistula, nicolaus }) {
                   Download Disini
                 </a>
               </li>
-              <li>
+              {/* <li>
                 Informasi untuk Jurusan International Politics and Diplomacy,
                 NCU{" "}
                 <a
@@ -389,7 +430,7 @@ export default function jalurMandiri({ vistula, nicolaus }) {
                 >
                   Download Disini
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
           <div className={s.content}>
@@ -405,6 +446,7 @@ export default function jalurMandiri({ vistula, nicolaus }) {
                 fontWeight: "600",
                 textDecoration: "underline",
               }}
+              target="_blank"
             >
               Klik Disini
             </a>
