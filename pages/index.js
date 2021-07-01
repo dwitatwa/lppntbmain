@@ -73,12 +73,15 @@ export default function Home({ berita, crs, kampus }) {
           <div className={s.video_lpp}>
             <h1>Video Beasiswa NTB</h1>
             <div className={s.row_video}>
-              <Video vid="VyUtrC58WvI" />
-              <Video vid="_5jlhbGGTMo" />
+              <Video vid="NPEkOsBEPpM" width="1200" height="630" />
             </div>
             <div className={s.row_video}>
-              <Video vid="RQO8t_TJPkA" />
-              <Video vid="bEH1FZV2VUQ" />
+              <Video vid="VyUtrC58WvI" width="560" height="315" />
+              <Video vid="_5jlhbGGTMo" width="560" height="315" />
+            </div>
+            <div className={s.row_video}>
+              <Video vid="RQO8t_TJPkA" width="560" height="315" />
+              <Video vid="bEH1FZV2VUQ" width="560" height="315" />
             </div>
           </div>
         </div>

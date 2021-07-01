@@ -1,12 +1,12 @@
 import s from "../styles/Video.module.css";
 
-const Video = ({ vid }) => {
+const Video = ({ vid, width, height }) => {
   return (
     <div>
       <div className={s.container}>
         <iframe
-          width="560"
-          height="315"
+          width={width}
+          height={height}
           src={`https://www.youtube-nocookie.com/embed/${vid}`}
           title="YouTube video player"
           frameBorder="0"
