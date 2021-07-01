@@ -65,6 +65,12 @@ module.exports = {
           "https://docs.google.com/forms/d/e/1FAIpQLSfTOHwHQ1n0_xGnCKBCGoTvfSqRsx6gCa8E7hPVGI2-om1W_g/viewform?usp=sf_link",
         permanent: true,
       },
+      {
+        source: "/testtoeflofficialrumahbahasa",
+        destination:
+          "https://docs.google.com/forms/d/e/1FAIpQLSd5ufwQL0MwWBEvUEO4UB4G7vlwGyqL5A7dFJHRUCptoDpwsQ/viewform?usp=sf_link",
+        permanent: true,
+      },
     ];
   },
 };
