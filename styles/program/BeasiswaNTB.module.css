@@ -95,6 +95,23 @@
   }
 }
 
+.information{
+  background-color: #ffffff;
+  margin-bottom: 20px;
+  padding: 30px;
+  text-align: center;
+  border: 1px solid rgb(216, 216, 216);
+}
+
+.information h1{
+  font-size: 30px;
+  color: #1f407a;
+}
+
+.information div{
+  margin: 10px 0px;
+}
+
 /* @media screen and (max-width:1280px) {
   .base{
     padding: 50px 20px;

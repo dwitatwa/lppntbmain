@@ -8,6 +8,8 @@ import s from "../../styles/program/BeasiswaNTB.module.css";
 import Head from "next/head";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
+import Button from "@material-ui/core/Button";
+import VisibilityIcon from "@material-ui/icons/Visibility";
 
 const beasiswaNTB = () => {
   const [expanded, setExpanded] = React.useState(false);
@@ -26,6 +28,25 @@ const beasiswaNTB = () => {
         <div className={s.container}>
           <div className={s.title}>
             <h1>Beasiswa NTB</h1>
+          </div>
+          <div className={s.information}>
+            <h1>
+              Jadwal Seleksi Wawancara Beasiswa NTB Tahun 2021 Tujuan Eropa
+            </h1>
+            <div>
+              Para peserta Seleksi Wawancara dimohon untuk bersiap 15 Menit
+              sebelum wawancara dimulai
+            </div>
+            <Button
+              variant="contained"
+              color="primary"
+              size="small"
+              href="https://drive.google.com/file/d/1c0KWmtzbYr6t-Umb6xFPwSUy_yAQAgOc/view?usp=sharing"
+              target="_blank"
+              disableElevation
+            >
+              Lihat Disini &nbsp; <VisibilityIcon />
+            </Button>
           </div>
           <div className={s.card}>
             <div className={s.accordion_container}>
