@@ -159,6 +159,9 @@ export default function jalurMandiri({ vistula, nicolaus }) {
                           Biaya Administrasi (Sekali Bayar) :{" "}
                           <b>Rp. 5.000.000,- </b>
                         </li>
+                        <li style={{ marginTop: "20px" }}>
+                          Tuition Fee dibayar paling lambat 30 September 2021
+                        </li>
                       </ul>
                     </td>
                   </tr>
@@ -230,6 +233,9 @@ export default function jalurMandiri({ vistula, nicolaus }) {
                           Biaya Administrasi (Sekali Bayar) :{" "}
                           <b>Rp. 5.000.000,- </b>
                         </li>
+                        <li style={{ marginTop: "20px" }}>
+                          Tuition Fee dibayar paling lambat 30 September 2021
+                        </li>
                       </ul>
                     </td>
                   </tr>
@@ -252,6 +258,9 @@ export default function jalurMandiri({ vistula, nicolaus }) {
                           Biaya Administrasi (Sekali Bayar) :{" "}
                           <b>Rp. 5.000.000,- </b>
                         </li>
+                        <li style={{ marginTop: "20px" }}>
+                          Tuition Fee dibayar paling lambat 30 September 2021
+                        </li>
                       </ul>
                     </td>
                   </tr>
@@ -272,6 +281,9 @@ export default function jalurMandiri({ vistula, nicolaus }) {
                         <li>
                           Biaya Administrasi (Sekali Bayar) :{" "}
                           <b>Rp. 5.000.000,- </b>
+                        </li>
+                        <li style={{ marginTop: "20px" }}>
+                          Tuition Fee dibayar paling lambat 30 September 2021
                         </li>
                       </ul>
                     </td>
@@ -308,6 +320,9 @@ export default function jalurMandiri({ vistula, nicolaus }) {
                           Biaya Administrasi (Sekali Bayar) :{" "}
                           <b>Rp. 5.000.000,- </b>
                         </li>
+                        <li style={{ marginTop: "20px" }}>
+                          Tuition Fee dibayar paling lambat 30 September 2021
+                        </li>
                       </ul>
                     </td>
                   </tr>
@@ -340,7 +355,7 @@ export default function jalurMandiri({ vistula, nicolaus }) {
             <h3>Pendaftaran Program Jalur Mandiri</h3>
             <hr style={{ border: "1px solid rgb(225,225,225)" }} />
             Pendaftaran untuk program ini dilakukan melalui online paling lambat
-            tanggal <b>15 Juli 2021</b> untuk Intake Oktober 2021.
+            tanggal <b>15 Agustus 2021</b> untuk Intake Oktober 2021.
             <br /> Untuk Pendaftaran, silahkan{" "}
             <Button
               href="https://docs.google.com/forms/d/e/1FAIpQLSfTOHwHQ1n0_xGnCKBCGoTvfSqRsx6gCa8E7hPVGI2-om1W_g/viewform?usp=sf_link"
