@@ -71,6 +71,12 @@ module.exports = {
           "https://docs.google.com/forms/d/e/1FAIpQLSd5ufwQL0MwWBEvUEO4UB4G7vlwGyqL5A7dFJHRUCptoDpwsQ/viewform?usp=sf_link",
         permanent: true,
       },
+      {
+        source: "/KonfirmasiAwardeeBeasiswaNTB",
+        destination:
+          "https://docs.google.com/forms/d/e/1FAIpQLSeCJmHnzFGwJwfdV8q4HLnZz_c0kr7hnmlBsBwDqDdkAFkbRQ/viewform?usp=sf_link",
+        permanent: true,
+      },
     ];
   },
 };
