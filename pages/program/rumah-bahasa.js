@@ -48,6 +48,22 @@ const rumahBahasa = ({ image1, image2 }) => {
           <div className={s.title}>
             <h1>Rumah Bahasa NTB</h1>
           </div>
+          <div className={s.information}>
+            <h1>Daftar Nama Tutor Rumah Bahasa Batch V Tahun 2021</h1>
+            <div>
+              Untuk melihat daftar nama silahkan klik pada tombol dibawah ini
+            </div>
+            <Button
+              variant="contained"
+              color="primary"
+              size="small"
+              href="https://drive.google.com/file/d/1aKIcHi-XxgqvKM9wVaXej3WpVWtGu-EF/view?usp=sharing"
+              target="_blank"
+              disableElevation
+            >
+              Lihat Disini &nbsp; <VisibilityIcon />
+            </Button>
+          </div>
           <div className={s.card}>
             <div className={s.accordion_container}>
               <Accordion
