@@ -77,10 +77,10 @@ const rumahBahasa = ({ image1, image2 }) => {
               href="https://drive.google.com/file/d/1uKMRoZ0ZX98-iaoaXcV1hzFk0r9UYPbp/view?usp=sharing"
               target="_blank"
               disableElevation
+              style={{ margin: "5px" }}
             >
               <GetAppIcon fontSize="small" /> &nbsp; Surat Pernyataan
             </Button>
-            &nbsp;
             <Button
               variant="contained"
               color="secondary"
@@ -88,6 +88,7 @@ const rumahBahasa = ({ image1, image2 }) => {
               href="https://docs.google.com/forms/d/e/1FAIpQLSdboCRIUc8eINorbFnKtq489PC9BmQgTMLpyCbRbXZq6QB7EA/viewform"
               target="_blank"
               disableElevation
+              style={{ margin: "5px" }}
             >
               <CheckCircleIcon fontSize="small" /> &nbsp; Validasi Disini
             </Button>
