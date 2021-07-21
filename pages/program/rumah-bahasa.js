@@ -12,6 +12,8 @@ import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import Button from "@material-ui/core/Button";
 import VisibilityIcon from "@material-ui/icons/Visibility";
+import CheckCircleIcon from "@material-ui/icons/CheckCircle";
+import GetAppIcon from "@material-ui/icons/GetApp";
 
 export async function getStaticProps() {
   const client = createClient({
@@ -49,6 +51,48 @@ const rumahBahasa = ({ image1, image2 }) => {
             <h1>Rumah Bahasa NTB</h1>
           </div>
           <div className={s.information}>
+            <h1>Daftar nama Peserta Rumah Bahasa Batch V Tahun 2021</h1>
+            <div>
+              Berikut merupakan daftar nama peserta yang lolos, silahkan klik
+              pada tombol dibawah ini untuk melihat.
+            </div>
+            <Button
+              variant="contained"
+              color="primary"
+              size="small"
+              href="https://drive.google.com/file/d/1LUDzFn3BkgzGeAZd8qfx52rsHDN_aOYf/view?usp=sharing"
+              target="_blank"
+              disableElevation
+            >
+              <VisibilityIcon fontSize="small" /> &nbsp; Daftar Nama
+            </Button>
+            <div>
+              Bagi peserta yang lolos, silahkan mendownload surat pernyataan
+              terlebih dahulu, kemudian melakukan validasi pada link dibawah ini
+            </div>
+            <Button
+              variant="contained"
+              color="secondary"
+              size="small"
+              href="https://drive.google.com/file/d/1uKMRoZ0ZX98-iaoaXcV1hzFk0r9UYPbp/view?usp=sharing"
+              target="_blank"
+              disableElevation
+            >
+              <GetAppIcon fontSize="small" /> &nbsp; Surat Pernyataan
+            </Button>
+            &nbsp;
+            <Button
+              variant="contained"
+              color="secondary"
+              size="small"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSdboCRIUc8eINorbFnKtq489PC9BmQgTMLpyCbRbXZq6QB7EA/viewform"
+              target="_blank"
+              disableElevation
+            >
+              <CheckCircleIcon fontSize="small" /> &nbsp; Validasi Disini
+            </Button>
+          </div>
+          {/* <div className={s.information}>
             <h1>Daftar Nama Tutor Rumah Bahasa Batch V Tahun 2021</h1>
             <div>
               Untuk melihat daftar nama silahkan klik pada tombol dibawah ini
@@ -63,7 +107,7 @@ const rumahBahasa = ({ image1, image2 }) => {
             >
               Lihat Disini &nbsp; <VisibilityIcon />
             </Button>
-          </div>
+          </div> */}
           <div className={s.card}>
             <div className={s.accordion_container}>
               <Accordion
