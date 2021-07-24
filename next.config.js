@@ -89,6 +89,12 @@ module.exports = {
           "https://docs.google.com/forms/d/e/1FAIpQLSeNH1Kdvv9HYN61jokzh7pzzVyW1EkgHGSFDiDYdAGzsIsqYw/viewform?usp=sf_link",
         permanent: true,
       },
+      {
+        source: "/IELTSintensivecourse",
+        destination:
+          "https://docs.google.com/forms/d/e/1FAIpQLSdI0YuKGT-ZUc6b6ZPNCldzT_nW7p4Luni8BAyErI5K2-r0_Q/viewform?usp=sf_link",
+        permanent: true,
+      },
     ];
   },
 };
