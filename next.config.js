@@ -89,6 +89,12 @@ module.exports = {
           "https://docs.google.com/forms/d/e/1FAIpQLSfe_VgLwb88i2Blgqlx7VqLedFLzmMIcO6tA1EIQ50v_PXluA/viewform?usp=sf_link",
         permanent: true,
       },
+      {
+        source: "/LPJdanapenelitian",
+        destination:
+          "https://docs.google.com/forms/d/e/1FAIpQLSeXGhc7Dr6aKMikVwmbGI9A0xMG3aUa3_ujxTcAJzfAStKYgg/viewform?usp=sf_link",
+        permanent: true,
+      },
     ];
   },
 };
