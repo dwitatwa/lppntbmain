@@ -12,12 +12,6 @@ module.exports = {
         permanent: true,
       },
       {
-        source: "/pendaftaranbeasiswantb2021",
-        destination:
-          "https://docs.google.com/forms/d/e/1FAIpQLScgkM35L_CW8cNs3aLQQCo8oJxAfn9jElE0AudVYB8NukyAmw/viewform?usp=sf_link",
-        permanent: true,
-      },
-      {
         source: "/ieltsofficialtest2021",
         destination:
           "https://docs.google.com/forms/d/e/1FAIpQLSdNUS1NBhggXUhKgFemXJHuc-qPFZqvYcTAx6OAU8w_Av5vDQ/viewform?usp=sf_link",
@@ -54,12 +48,6 @@ module.exports = {
         permanent: true,
       },
       {
-        source: "/KonfirmasiSeleksiBerkas2021",
-        destination:
-          "https://docs.google.com/forms/d/e/1FAIpQLSdTw30Bx1oHfWkNnWa6RA7_z6c8KBqdtGPtiwEqm0BShddhNA/viewform?usp=sf_link",
-        permanent: true,
-      },
-      {
         source: "/PendaftaranProgramJalurMandiri",
         destination:
           "https://docs.google.com/forms/d/e/1FAIpQLSfTOHwHQ1n0_xGnCKBCGoTvfSqRsx6gCa8E7hPVGI2-om1W_g/viewform?usp=sf_link",
@@ -93,6 +81,12 @@ module.exports = {
         source: "/IELTSintensivecourse",
         destination:
           "https://docs.google.com/forms/d/e/1FAIpQLSdI0YuKGT-ZUc6b6ZPNCldzT_nW7p4Luni8BAyErI5K2-r0_Q/viewform?usp=sf_link",
+        permanent: true,
+      },
+      {
+        source: "/BantuanDanaRisetAwardee2021",
+        destination:
+          "https://docs.google.com/forms/d/e/1FAIpQLSfe_VgLwb88i2Blgqlx7VqLedFLzmMIcO6tA1EIQ50v_PXluA/viewform?usp=sf_link",
         permanent: true,
       },
     ];
