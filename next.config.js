@@ -95,6 +95,11 @@ module.exports = {
           "https://docs.google.com/forms/d/e/1FAIpQLSeXGhc7Dr6aKMikVwmbGI9A0xMG3aUa3_ujxTcAJzfAStKYgg/viewform?usp=sf_link",
         permanent: true,
       },
+      {
+        source: "/kursustoeflonline",
+        destination: "https://forms.gle/ATJH2QDBsn5pf2J1A",
+        permanent: true,
+      },
     ];
   },
 };
