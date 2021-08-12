@@ -100,6 +100,11 @@ module.exports = {
         destination: "https://forms.gle/ATJH2QDBsn5pf2J1A",
         permanent: true,
       },
+      {
+        source: "/ieltsofficialtest",
+        destination: "https://forms.gle/LhKgZHjSfj6HwHFB7",
+        permanent: true,
+      },
     ];
   },
 };
