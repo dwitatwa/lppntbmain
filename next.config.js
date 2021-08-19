@@ -105,6 +105,12 @@ module.exports = {
         destination: "https://forms.gle/LhKgZHjSfj6HwHFB7",
         permanent: true,
       },
+      {
+        source: "/pelatihanieltsuntukdosen",
+        destination:
+          "https://docs.google.com/forms/d/e/1FAIpQLSeUSNgPVXVINnit3ZhieJTzXMnm_Fxa-uxd9LFtJDSrYcEPuA/viewform?usp=sf_link",
+        permanent: true,
+      },
     ];
   },
 };
