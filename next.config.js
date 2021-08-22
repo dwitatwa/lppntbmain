@@ -112,7 +112,7 @@ module.exports = {
         permanent: true,
       },
       {
-        source: "/voucherPulsaBimtek",
+        source: "/voucherPulsaBimtekKampus",
         destination:
           "https://forms.gle/h4nJ4tTcshDMVgYU7",
         permanent: true,
