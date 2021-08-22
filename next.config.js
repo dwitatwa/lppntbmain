@@ -111,6 +111,12 @@ module.exports = {
           "https://docs.google.com/forms/d/e/1FAIpQLSeUSNgPVXVINnit3ZhieJTzXMnm_Fxa-uxd9LFtJDSrYcEPuA/viewform?usp=sf_link",
         permanent: true,
       },
+      {
+        source: "/voucherPulsaBimtek",
+        destination:
+          "https://forms.gle/h4nJ4tTcshDMVgYU7",
+        permanent: true,
+      },
     ];
   },
 };
