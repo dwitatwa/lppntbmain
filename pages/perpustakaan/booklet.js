@@ -44,7 +44,7 @@ const Booklet = ({ booklet19_20, booklet_guru_nakes, booklet_tahap2 }) => {
                 <h1>Booklet Info</h1>
                 Tujuan Eropa 2021 <br />
                 <span className={s.update_status}>(Update Negara Turki)</span>
-                <div className={s.status}> Masih Berlaku</div>
+                <div className={s.status_x}> Tidak Berlaku</div>
                 <Button
                   className={s.download}
                   size="small"
