@@ -57,6 +57,24 @@ const Booklet = ({ booklet19_20, booklet_guru_nakes, booklet_tahap2 }) => {
                 </Button>
               </div>
             </div>
+            <div className={s.buku}>
+              <img src="/covmalaysia.jpg" alt="" />
+              <div className={s.content}>
+                <h1>Booklet Info</h1>
+                Tujuan Asia 2021 <br />
+                <div className={s.status_x}> Tidak Berlaku</div>
+                <Button
+                  className={s.download}
+                  size="small"
+                  variant="outlined"
+                  color="primary"
+                  href="https://drive.google.com/file/d/1uUlA9gaWO8a4OnMXoyd8zdQEq8JHPJTg/view?usp=sharing"
+                  target="_blank"
+                >
+                  Download
+                </Button>
+              </div>
+            </div>
           </div>
           <div className={s.judul}>Tahun 2019-2020</div>
           <div className={s.container_buku}>
