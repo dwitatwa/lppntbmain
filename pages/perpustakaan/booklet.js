@@ -62,13 +62,13 @@ const Booklet = ({ booklet19_20, booklet_guru_nakes, booklet_tahap2 }) => {
               <div className={s.content}>
                 <h1>Booklet Info</h1>
                 Tujuan Asia 2021 <br />
-                <div className={s.status_x}> Tidak Berlaku</div>
+                <div className={s.status}> Masih Berlaku</div>
                 <Button
                   className={s.download}
                   size="small"
                   variant="outlined"
                   color="primary"
-                  href="https://drive.google.com/file/d/1uUlA9gaWO8a4OnMXoyd8zdQEq8JHPJTg/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1_BrPjtvyDe0TFDuwZAdj4i_c_MuAXusu/view?usp=sharing"
                   target="_blank"
                 >
                   Download
