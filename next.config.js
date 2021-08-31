@@ -117,6 +117,12 @@ module.exports = {
           "https://forms.gle/h4nJ4tTcshDMVgYU7",
         permanent: true,
       },
+      {
+        source: "/pendaftaranbeasiswantb",
+        destination:
+          "https://forms.gle/nNMLB99QbqXxdLjb6",
+        permanent: true,
+      },
     ];
   },
 };
