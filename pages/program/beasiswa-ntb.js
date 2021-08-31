@@ -210,7 +210,7 @@ const beasiswaNTB = () => {
                       <li>
                         Sertifikat Bahasa, Skor/Band minimal :
                         <ul>
-                          <li>TOEFL ITP : 500</li>
+                          <li>TOEFL ITP : 450</li>
                           <li>IELTS : 5.0</li>
                           <li>TOEIC : 600</li>
                           <li>TOEFL IBT : 50</li>
