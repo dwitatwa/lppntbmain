@@ -68,7 +68,7 @@ const Booklet = ({ booklet19_20, booklet_guru_nakes, booklet_tahap2 }) => {
                   size="small"
                   variant="outlined"
                   color="primary"
-                  href="https://drive.google.com/file/d/1_BrPjtvyDe0TFDuwZAdj4i_c_MuAXusu/view?usp=sharing"
+                  href="https://drive.google.com/file/d/14RZUROLChSduD75WJesUKV0EnJbfl3nY/view?usp=sharing"
                   target="_blank"
                 >
                   Download
