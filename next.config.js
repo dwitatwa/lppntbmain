@@ -123,6 +123,12 @@ module.exports = {
           "https://forms.gle/nNMLB99QbqXxdLjb6",
         permanent: true,
       },
+      {
+        source: "/MUETPredictionTest",
+        destination:
+          "https://forms.gle/Dp8AibSfi3htKyLh9",
+        permanent: true,
+      },
     ];
   },
 };
