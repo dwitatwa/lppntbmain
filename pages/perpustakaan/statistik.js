@@ -18,11 +18,11 @@ export default function Statistik() {
 
         <div className={s.container}>
           <div className={s.title}>
-            <h1>Sebaran Penerima Beasiswa NTB 2018-2020</h1>
+            <h1>Sebaran Penerima Beasiswa NTB 2018-2021</h1>
           </div>
           <div className={s.jumlah_total}>
             Jumlah Awardee Beasiswa NTB dengan status <i> On Going</i> per 1
-            Desember 2020 : <b>443 Orang</b>
+            September 2021 : <b>595 Orang</b>
             <div>Berikut sebarannya</div>
           </div>
           <div className={s.sebaran_negara}>
@@ -31,25 +31,25 @@ export default function Statistik() {
               <CountryCard
                 src="/flag/poland.svg"
                 title="Polandia"
-                jumlah={96}
+                jumlah={137}
               />
               <CountryCard src="/flag/russia.svg" title="Rusia" jumlah={4} />
               <CountryCard src="/flag/china.svg" title="Cina" jumlah={28} />
               <CountryCard
                 src="/flag/malaysia.svg"
                 title="Malaysia"
-                jumlah={277}
+                jumlah={254}
               />
             </div>
             <div className={s.row_negara}>
-              <CountryCard src="/flag/taiwan.svg" title="Taiwan" jumlah={10} />
-              <CountryCard src="/flag/czech.svg" title="Ceko" jumlah={9} />
+              <CountryCard src="/flag/taiwan.svg" title="Taiwan" jumlah={9} />
+              <CountryCard src="/flag/czech.svg" title="Ceko" jumlah={7} />
               <CountryCard
                 src="/flag/hungary.svg"
                 title="Hungaria"
-                jumlah={8}
+                jumlah={1}
               />
-              <CountryCard src="/flag/sudan.svg" title="Sudan" jumlah={18} />
+              <CountryCard src="/flag/sudan.svg" title="Sudan" jumlah={14} />
             </div>
           </div>
           <div className={s.sebaran_daerah}>
@@ -58,53 +58,53 @@ export default function Statistik() {
               <KabupatenCard
                 src="/kabupaten/mataram.png"
                 title="Mataram"
-                jml={78}
+                jml={85}
               />
               <KabupatenCard
                 src="/kabupaten/lobar.png"
                 title="Lombok Barat"
-                jml={56}
+                jml={62}
               />
               <KabupatenCard
                 src="/kabupaten/loteng.png"
                 title="Lombok Tengah"
-                jml={62}
+                jml={58}
               />
               <KabupatenCard
                 src="/kabupaten/klu.png"
                 title="Lombok Utara"
-                jml={7}
+                jml={8}
               />
               <KabupatenCard
                 src="/kabupaten/lotim.png"
                 title="Lombok Timur"
-                jml={97}
+                jml={98}
               />
               <KabupatenCard src="/kabupaten/bima.png" title="Bima" jml={25} />
               <KabupatenCard
                 src="/kabupaten/kota_bima.png"
                 title="Kota Bima"
-                jml={16}
+                jml={15}
               />
               <KabupatenCard
                 src="/kabupaten/sumbawa.png"
                 title="Sumbawa"
-                jml={67}
+                jml={68}
               />
               <KabupatenCard
                 src="/kabupaten/sumbawa_barat.png"
                 title="Sumbawa Barat"
-                jml={18}
+                jml={21}
               />
               <KabupatenCard
                 src="/kabupaten/dompu.png"
                 title="Dompu"
-                jml={17}
+                jml={14}
               />
             </div>
           </div>
           <div className={s.jumlah_total}>
-            Jumlah Alumni Beasiswa NTB per 1 Desember 2020 :<b> 49 Orang</b>
+            Jumlah Alumni Beasiswa NTB per 1 September 2021 :<b> 170 Orang</b>
             <div>Berikut sebarannya</div>
           </div>
           <div className={s.sebaran_alumni}>
@@ -113,29 +113,29 @@ export default function Statistik() {
               <KabupatenCard
                 src="/kabupaten/mataram.png"
                 title="Mataram"
-                jml={9}
+                jml={22}
               />
               <KabupatenCard
                 src="/kabupaten/lobar.png"
                 title="Lombok Barat"
-                jml={6}
+                jml={18}
               />
               <KabupatenCard
                 src="/kabupaten/loteng.png"
                 title="Lombok Tengah"
-                jml={5}
+                jml={15}
               />
               <KabupatenCard
                 src="/kabupaten/klu.png"
                 title="Lombok Utara"
-                jml={2}
+                jml={5}
               />
               <KabupatenCard
                 src="/kabupaten/lotim.png"
                 title="Lombok Timur"
-                jml={7}
+                jml={34}
               />
-              <KabupatenCard src="/kabupaten/bima.png" title="Bima" jml={25} />
+              <KabupatenCard src="/kabupaten/bima.png" title="Bima" jml={20} />
               <KabupatenCard
                 src="/kabupaten/kota_bima.png"
                 title="Kota Bima"
@@ -144,14 +144,14 @@ export default function Statistik() {
               <KabupatenCard
                 src="/kabupaten/sumbawa.png"
                 title="Sumbawa"
-                jml={6}
+                jml={29}
               />
               <KabupatenCard
                 src="/kabupaten/sumbawa_barat.png"
                 title="Sumbawa Barat"
-                jml={3}
+                jml={10}
               />
-              <KabupatenCard src="/kabupaten/dompu.png" title="Dompu" jml={4} />
+              <KabupatenCard src="/kabupaten/dompu.png" title="Dompu" jml={10} />
             </div>
           </div>
         </div>
