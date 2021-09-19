@@ -20,9 +20,18 @@ export default function Statistik() {
           <div className={s.title}>
             <h1>Sebaran Penerima Beasiswa NTB 2018-2021</h1>
           </div>
+          <div
+            className={s.jumlah_total}
+            style={{ borderBottom: "1px solid rgb(226, 225, 225)" }}
+          >
+            <h2>
+              JUMLAH AWARDEE BEASISWA NTB KATEGORI A,B DAN C PER 1 SEPTEMBER
+              2021 ADALAH <br /> <b style={{ color: "#fdb900" }}>595 ORANG</b>
+            </h2>
+          </div>
           <div className={s.jumlah_total}>
-            Jumlah Awardee Beasiswa NTB dengan status <i> On Going</i> per 1
-            September 2021 : <b>595 Orang</b>
+            Jumlah Awardee Beasiswa NTB Kategori A & B per 1 September 2021 :{" "}
+            <b>454 Orang</b>
             <div>Berikut sebarannya</div>
           </div>
           <div className={s.sebaran_negara}>
@@ -104,6 +113,41 @@ export default function Statistik() {
             </div>
           </div>
           <div className={s.jumlah_total}>
+            Jumlah Awardee Beasiswa NTB Kategori C per 1 September 2021 :{" "}
+            <b>141 Orang</b>
+            <div>Berikut sebarannya</div>
+          </div>
+          <div className={s.sebaran_negara}>
+            {/* <h1>Berdasarkan Negara</h1> */}
+            <div className={s.row_negara}>
+              <CountryCard
+                src="/flag/poland.svg"
+                title="Polandia"
+                jumlah={25}
+              />
+              <CountryCard src="/flag/korea.svg" title="Korea" jumlah={35} />
+              <CountryCard
+                src="/flag/thailand.svg"
+                title="Thailand"
+                jumlah={8}
+              />
+              <CountryCard
+                src="/flag/malaysia.svg"
+                title="Malaysia"
+                jumlah={58}
+              />
+            </div>
+            <div className={s.row_negara} style={{ flex: "flex-start" }}>
+              <CountryCard src="/flag/taiwan.svg" title="Taiwan" jumlah={9} />
+              <CountryCard
+                src="/flag/austallia.svg"
+                title="Australia"
+                jumlah={5}
+              />
+              <CountryCard src="/flag/china.svg" title="China" jumlah={1} />
+            </div>
+          </div>
+          <div className={s.jumlah_total}>
             Jumlah Alumni Beasiswa NTB per 1 September 2021 :<b> 170 Orang</b>
             <div>Berikut sebarannya</div>
           </div>
@@ -151,7 +195,11 @@ export default function Statistik() {
                 title="Sumbawa Barat"
                 jml={10}
               />
-              <KabupatenCard src="/kabupaten/dompu.png" title="Dompu" jml={10} />
+              <KabupatenCard
+                src="/kabupaten/dompu.png"
+                title="Dompu"
+                jml={10}
+              />
             </div>
           </div>
         </div>
