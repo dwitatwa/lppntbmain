@@ -63,11 +63,11 @@ const Header = () => {
         <div className={s.hubungi_group}>
           <a href="#" className={s.hubungi}>
             <CallIcon />
-            <p>08123456789</p>
+            <p>+62877-6344-2033</p>
           </a>
           <a href="#" className={s.hubungi}>
             <MailIcon />
-            <p>info@lppntb.com</p>
+            <p>lppntb01@gmail.com</p>
           </a>
           <a href="#" className={s.hubungi}>
             <WatchLaterIcon />
@@ -105,7 +105,7 @@ const Header = () => {
               </Link>
             </Button>
             <Button className={s.menu_dropdown}>
-              <Dropdown title="Perpustakan">
+              <Dropdown title="Informasi">
                 <Link href="/perpustakaan/statistik">
                   <a>Sebaran Penerima Beasiswa NTB</a>
                 </Link>
