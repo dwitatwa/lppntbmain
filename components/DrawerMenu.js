@@ -60,7 +60,7 @@ export default function DrawerMenu() {
           </Link>
         </Button>
         <Button className={s.menu_dropdown}>
-          <Dropdown title="Perpustakan">
+          <Dropdown title="Informasi">
             <Link href="/perpustakaan/statistik">
               <a onClick={toggleDrawer(anchor, false)}>
                 Statistik Penerima Beasiswa NTB
