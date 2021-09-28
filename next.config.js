@@ -135,6 +135,12 @@ module.exports = {
           "https://forms.gle/zCi4FsPTarsF6oSb9",
         permanent: true,
       },
+      {
+        source: "/KonfirmasiSeleksiDanaPenelitian",
+        destination:
+          "https://forms.gle/oSTPwkNix9TJ7CW8A",
+        permanent: true,
+      },
     ];
   },
 };
