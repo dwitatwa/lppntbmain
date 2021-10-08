@@ -141,6 +141,12 @@ module.exports = {
           "https://forms.gle/oSTPwkNix9TJ7CW8A",
         permanent: true,
       },
+      {
+        source: "/FormPerjalananAwardee",
+        destination:
+          "https://forms.gle/sWPXjGFHV1N42yUbA",
+        permanent: true,
+      },
     ];
   },
 };
