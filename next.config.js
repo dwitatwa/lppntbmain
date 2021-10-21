@@ -153,6 +153,12 @@ module.exports = {
           "https://forms.gle/R49BZ9NqPKrNFB3E6",
         permanent: true,
       },
+       {
+        source: "/RSVPIYD2021",
+        destination:
+          "https://forms.gle/ptwA1B95sd4PDUhj7",
+        permanent: true,
+      },
     ];
   },
 };
