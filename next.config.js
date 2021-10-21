@@ -147,6 +147,12 @@ module.exports = {
           "https://forms.gle/sWPXjGFHV1N42yUbA",
         permanent: true,
       },
+      {
+        source: "/KonfirmasiHasilSeleksiBerkas",
+        destination:
+          "https://forms.gle/R49BZ9NqPKrNFB3E6",
+        permanent: true,
+      },
     ];
   },
 };
