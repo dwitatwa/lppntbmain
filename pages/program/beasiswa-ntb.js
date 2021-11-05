@@ -77,16 +77,15 @@ const beasiswaNTB = () => {
             <div>
               Jika terdapat pertanyaan mengenai seleksi Administrasi khusus
               untuk pendaftar, silahkan{" "}
-              <Button
-                variant="contained"
-                color="primary"
-                size="small"
-                href="https://kontak.lppntb.com"
-                target="_blank"
-                disableElevation
-              >
-                Klik Disini
-              </Button>
+              <b>
+                {" "}
+                <u>
+                  {" "}
+                  <a href="https://kontak.lppntb.com">
+                    Klik Disini
+                  </a>{" "}
+                </u>{" "}
+              </b>
             </div>
           </div>
           <div className={s.card}>
