@@ -31,22 +31,50 @@ const beasiswaNTB = () => {
           </div>
           <div className={s.information}>
             <h1>
-              Jadwal Seleksi Wawancara Beasiswa NTB Tahun 2021 Tujuan Eropa
+              Hasil seleksi Tahap I - Seleksi Administrasi Beasiswa NTB S2
+              Tujuan Malaysia, Thailand, dan Turkey Tahun 2021.
             </h1>
-            <div>
-              Para peserta Seleksi Wawancara dimohon untuk bersiap 15 Menit
-              sebelum wawancara dimulai
-            </div>
+            <br />
             <Button
               variant="contained"
               color="primary"
               size="small"
-              href="https://drive.google.com/file/d/1c0KWmtzbYr6t-Umb6xFPwSUy_yAQAgOc/view?usp=sharing"
+              href="https://drive.google.com/file/d/15tjsthKmC7dPxmXnpYp8WZiajrMUST7Z/view?usp=sharing"
               target="_blank"
               disableElevation
             >
               Lihat Disini &nbsp; <VisibilityIcon />
             </Button>
+            <br />
+            <br />
+            <div>
+              Selamat bagi para pendaftar yang dinyatakan{" "}
+              <b>lulus Tahap I - Seleksi Administrasi</b>. Semangat berjuang dan
+              persiapkan diri dengan sebaik-baiknya untuk seleksi tahap
+              selanjutnya.
+            </div>
+            <div>
+              Adapun Informasi selanjutnya terkait Seleksi Tahap 2 - Seleksi
+              Wawancara Beasiswa NTB akan di infokan melalui Sosial Media dan
+              Website Beasiswa NTB. Jadi jangan lupa cek secara berkala dan
+              jangan sampai kelewatan ya! Bagi peserta yang tidak lulus jangan
+              berkecil hati, semangat dan sampai jumpa di pembukaan pendaftaran
+              selanjutnya.
+            </div>
+            <div>
+              Jika terdapat pertanyaan mengenai seleksi Administrasi khusus
+              untuk pendaftar, silahkan{" "}
+              <Button
+                variant="contained"
+                color="primary"
+                size="small"
+                href="https://kontak.lppntb.com"
+                target="_blank"
+                disableElevation
+              >
+                Klik Disini
+              </Button>
+            </div>
           </div>
           <div className={s.card}>
             <div className={s.accordion_container}>
