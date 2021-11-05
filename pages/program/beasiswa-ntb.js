@@ -62,7 +62,7 @@ const beasiswaNTB = () => {
               selanjutnya.
             </div>
             <div>
-              Bagi peserta yang Lulus Tahap 1 - Seleksi Adminitrasi supaya
+              Bagi peserta yang Lulus Tahap 1 - Seleksi Adminitrasi silahkan
               langsung melakukan konfirmasi pada link{" "}
               <b>
                 {" "}
