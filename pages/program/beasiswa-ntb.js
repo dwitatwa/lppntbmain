@@ -62,6 +62,19 @@ const beasiswaNTB = () => {
               selanjutnya.
             </div>
             <div>
+              Bagi peserta yang Lulus Tahap 1 - Seleksi Adminitrasi supaya
+              langsung melakukan konfirmasi pada link{" "}
+              <b>
+                {" "}
+                <u>
+                  {" "}
+                  <a href="https://lppntb.com/KonfirmasiHasilSeleksiBerkas">
+                    https://lppntb.com/KonfirmasiHasilSeleksiBerkas
+                  </a>{" "}
+                </u>{" "}
+              </b>
+            </div>
+            <div>
               Jika terdapat pertanyaan mengenai seleksi Administrasi khusus
               untuk pendaftar, silahkan{" "}
               <Button
