@@ -165,6 +165,12 @@ module.exports = {
           "https://forms.gle/knNDTj27wTuwcaCRA",
         permanent: true,
       },
+      {
+        source: "/FormBankDanaPenelitian",
+        destination:
+          "https://forms.gle/r6cmCk1smPjzQJgVA",
+        permanent: true,
+      },
     ];
   },
 };
