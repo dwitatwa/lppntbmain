@@ -171,6 +171,12 @@ module.exports = {
           "https://forms.gle/r6cmCk1smPjzQJgVA",
         permanent: true,
       },
+      {
+        source: "/kursustoefllppntb2021",
+        destination:
+          "https://forms.gle/FKrN76oFVgfvPcwN6",
+        permanent: true,
+      },
     ];
   },
 };
