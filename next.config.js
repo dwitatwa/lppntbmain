@@ -178,7 +178,7 @@ module.exports = {
         permanent: true,
       },
       {
-        source: "/SeleksiTahap2",
+        source: "/seleksi-tahap2-2021",
         destination:
           "https://us02web.zoom.us/j/82941175117?pwd=RzlNbWJMSjVNRnRYNDRYYmg3RXRMdz09",
         permanent: true,
