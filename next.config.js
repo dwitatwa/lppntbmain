@@ -177,6 +177,12 @@ module.exports = {
           "https://forms.gle/FKrN76oFVgfvPcwN6",
         permanent: true,
       },
+      {
+        source: "/SeleksiTahap2",
+        destination:
+          "https://us02web.zoom.us/j/82941175117?pwd=RzlNbWJMSjVNRnRYNDRYYmg3RXRMdz09",
+        permanent: true,
+      },
     ];
   },
 };
