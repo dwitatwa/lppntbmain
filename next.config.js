@@ -189,6 +189,12 @@ module.exports = {
           "https://forms.gle/R83a3T7h2RaqcBdu8",
         permanent: true,
       },
+      {
+        source: "/KonfirmasiPenerimaanDanaPenelitian",
+        destination:
+          "https://forms.gle/idjn9acyrNYWFjLD8",
+        permanent: true,
+      },
     ];
   },
 };
