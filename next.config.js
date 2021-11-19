@@ -183,6 +183,12 @@ module.exports = {
           "https://us02web.zoom.us/j/82941175117?pwd=RzlNbWJMSjVNRnRYNDRYYmg3RXRMdz09",
         permanent: true,
       },
+      {
+        source: "/kursusenglish2021",
+        destination:
+          "https://forms.gle/R83a3T7h2RaqcBdu8",
+        permanent: true,
+      },
     ];
   },
 };
