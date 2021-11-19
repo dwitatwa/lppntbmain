@@ -31,7 +31,7 @@ const beasiswaNTB = () => {
           </div>
           <div className={s.information}>
             <h1>
-              Hasil seleksi Tahap I - Seleksi Administrasi Beasiswa NTB S2
+              Jaddwal seleksi Tahap 2 - Seleksi Wawancara Beasiswa NTB S2
               Tujuan Malaysia, Thailand, dan Turkey Tahun 2021.
             </h1>
             <br />
@@ -39,54 +39,12 @@ const beasiswaNTB = () => {
               variant="contained"
               color="primary"
               size="small"
-              href="https://drive.google.com/file/d/15tjsthKmC7dPxmXnpYp8WZiajrMUST7Z/view?usp=sharing"
+              href="https://drive.google.com/file/d/1ehdJpoTWxP8v3hvdHv8fpXXV2L2qU8I5/view?usp=sharing"
               target="_blank"
               disableElevation
             >
               Lihat Disini &nbsp; <VisibilityIcon />
             </Button>
-            <br />
-            <br />
-            <div>
-              Selamat bagi para pendaftar yang dinyatakan{" "}
-              <b>lulus Tahap I - Seleksi Administrasi</b>. Semangat berjuang dan
-              persiapkan diri dengan sebaik-baiknya untuk seleksi tahap
-              selanjutnya.
-            </div>
-            <div>
-              Adapun Informasi selanjutnya terkait Seleksi Tahap 2 - Seleksi
-              Wawancara Beasiswa NTB akan di infokan melalui Sosial Media dan
-              Website Beasiswa NTB. Jadi jangan lupa cek secara berkala dan
-              jangan sampai kelewatan ya! Bagi peserta yang tidak lulus jangan
-              berkecil hati, semangat dan sampai jumpa di pembukaan pendaftaran
-              selanjutnya.
-            </div>
-            <div>
-              Bagi peserta yang Lulus Tahap 1 - Seleksi Adminitrasi silahkan
-              langsung melakukan konfirmasi pada link{" "}
-              <b>
-                {" "}
-                <u>
-                  {" "}
-                  <a href="https://lppntb.com/KonfirmasiHasilSeleksiBerkas">
-                    https://lppntb.com/KonfirmasiHasilSeleksiBerkas
-                  </a>{" "}
-                </u>{" "}
-              </b>
-            </div>
-            <div>
-              Jika terdapat pertanyaan mengenai seleksi Administrasi khusus
-              untuk pendaftar, silahkan{" "}
-              <b>
-                {" "}
-                <u>
-                  {" "}
-                  <a href="https://kontak.lppntb.com">
-                    Klik Disini
-                  </a>{" "}
-                </u>{" "}
-              </b>
-            </div>
           </div>
           <div className={s.card}>
             <div className={s.accordion_container}>
