@@ -49,7 +49,7 @@ const Details = ({ berita }) => {
       <div className={s.main}>
         <Head>
           <title>LPPNTB - {berita.fields.judul}</title>
-          <meta property="og:description" content={""+berita.fields.judul+""} />
+          <meta property="og:description" content={""+berita.fields.preview+""} />
           <meta property="og:image" content={"https:" + berita.fields.cover.fields.file.url} />
         </Head>
         <div className={s.background}></div>
