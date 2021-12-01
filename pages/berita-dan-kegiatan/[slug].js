@@ -2,6 +2,7 @@ import { createClient } from "contentful";
 import Head from "next/head";
 import s from "./DetailBerita.module.css";
 import { documentToReactComponents } from "@contentful/rich-text-react-renderer";
+import { BLOCKS, INLINES } from "@contentful/rich-text-types";
 import { FacebookShareButton, WhatsappShareButton } from "react-share";
 import { FacebookIcon, WhatsappIcon } from "react-share";
 import Footer from "../../components/Footer";
