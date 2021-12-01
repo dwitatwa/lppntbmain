@@ -12,6 +12,21 @@ const client = createClient({
   accessToken: process.env.CONTENTFUL_ACCESS_KEY,
 });
 
+const renderOptions = {
+  renderNode: {
+    [BLOCKS.EMBEDDED_ASSET]: (node, children) => {
+      return (
+        <img
+          src={`https://${node.data.target.fields.file.url}`}
+          height={node.data.target.fields.file.details.image.height}
+          width={node.data.target.fields.file.details.image.width}
+          alt={node.data.target.fields.description}
+        />
+      );
+    },
+  },
+}
+
 export const getStaticPaths = async () => {
   const res = await client.getEntries({
     content_type: "beritaDanKegiatan",
@@ -65,7 +80,7 @@ const Details = ({ berita }) => {
             width="100%"
           />
           <div className={s.isi_berita}>
-            {documentToReactComponents(berita.fields.isi)}
+            {documentToReactComponents(berita.fields.isi,renderOptions)}
           </div>
           <div className={s.share}>
             <span>Share :</span>
