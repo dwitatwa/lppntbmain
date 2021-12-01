@@ -19,8 +19,7 @@ const renderOptions = {
       return (
         <img
           src={`https://${node.data.target.fields.file.url}`}
-          height={100}
-          width={100}
+          height="100%"
           alt={node.data.target.fields.description}
         />
       );
