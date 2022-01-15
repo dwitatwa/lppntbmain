@@ -53,20 +53,6 @@ const rumahBahasa = ({ image1, image2 }) => {
           <div className={s.information}>
             <h1>Open Recruitment Peserta Rumah Bahasa Batch VI Tahun 2022</h1>
             <div>
-              Berikut merupakan daftar nama peserta yang lolos, silahkan klik
-              pada tombol dibawah ini untuk melihat.
-            </div>
-            <Button
-              variant="contained"
-              color="primary"
-              size="small"
-              href="https://drive.google.com/file/d/1LUDzFn3BkgzGeAZd8qfx52rsHDN_aOYf/view?usp=sharing"
-              target="_blank"
-              disableElevation
-            >
-              <VisibilityIcon fontSize="small" /> &nbsp; Daftar Nama
-            </Button>
-            <div>
               Halo Sobat Rumah Bahasa...
               Program General English & English for Tourism balik lagi nih <br/>
               Yuk disiapkan segera syarat" Pendaftarannya Sebelum Tanggal 30 Januari 2021
