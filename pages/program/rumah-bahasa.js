@@ -51,7 +51,7 @@ const rumahBahasa = ({ image1, image2 }) => {
             <h1>Rumah Bahasa NTB</h1>
           </div>
           <div className={s.information}>
-            <h1>Daftar nama Peserta Rumah Bahasa Batch V Tahun 2021</h1>
+            <h1>Open Recruitment Peserta Rumah Bahasa Batch VI Tahun 2022</h1>
             <div>
               Berikut merupakan daftar nama peserta yang lolos, silahkan klik
               pada tombol dibawah ini untuk melihat.
@@ -67,30 +67,31 @@ const rumahBahasa = ({ image1, image2 }) => {
               <VisibilityIcon fontSize="small" /> &nbsp; Daftar Nama
             </Button>
             <div>
-              Bagi peserta yang lolos, silahkan mendownload surat pernyataan
-              terlebih dahulu, kemudian melakukan validasi pada link dibawah ini
+              Halo Sobat Rumah Bahasa...
+              Program General English & English for Tourism balik lagi nih <br/>
+              Yuk disiapkan segera syarat" Pendaftarannya Sebelum Tanggal 30 Januari 2021
             </div>
             <Button
               variant="contained"
               color="secondary"
               size="small"
-              href="https://drive.google.com/file/d/1uKMRoZ0ZX98-iaoaXcV1hzFk0r9UYPbp/view?usp=sharing"
+              href="https://drive.google.com/file/d/1Coa2L5rFjXp36BYxHUZxm6u5laCthw2D/view?usp=sharing"
               target="_blank"
               disableElevation
               style={{ margin: "5px" }}
             >
-              <GetAppIcon fontSize="small" /> &nbsp; Surat Pernyataan
+              <GetAppIcon fontSize="small" /> &nbsp; Kontrak Pelatihan
             </Button>
             <Button
               variant="contained"
               color="secondary"
               size="small"
-              href="https://docs.google.com/forms/d/e/1FAIpQLSdboCRIUc8eINorbFnKtq489PC9BmQgTMLpyCbRbXZq6QB7EA/viewform"
+              href="https://bntb.site/oprecpesertarumahbahasa2022"
               target="_blank"
               disableElevation
               style={{ margin: "5px" }}
             >
-              <CheckCircleIcon fontSize="small" /> &nbsp; Validasi Disini
+              <CheckCircleIcon fontSize="small" /> &nbsp; Form Pendaftaran
             </Button>
           </div>
           {/* <div className={s.information}>
