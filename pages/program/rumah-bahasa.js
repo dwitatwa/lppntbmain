@@ -205,13 +205,13 @@ const rumahBahasa = ({ image1, image2 }) => {
                   <Image
                     src={"https:" + image1.fields.file.url}
                     alt=""
-                    width="50%"
+                    width={image1.fields.file.details.image.width}
                     height={image1.fields.file.details.image.height}
                   />
                   <Image
                     src={"https:" + image2.fields.file.url}
                     alt=""
-                    width="50%"
+                    width={image1.fields.file.details.image.width}
                     height={image2.fields.file.details.image.height}
                   />
                 </AccordionDetails>
