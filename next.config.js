@@ -201,6 +201,12 @@ module.exports = {
           "https://forms.gle/MivhVJSSavtLphWr5",
         permanent: true,
       },
+      {
+        source: "/pembukaanpendaftaranrumahbahasantb",
+        destination:
+          "https://forms.gle/LfMc91XrYhLFupoQ7",
+        permanent: true,
+      },
     ];
   },
 };
