@@ -195,6 +195,12 @@ module.exports = {
           "https://forms.gle/idjn9acyrNYWFjLD8",
         permanent: true,
       },
+      {
+        source: "/pembukaanpendaftaranbeasiswantb2022",
+        destination:
+          "https://forms.gle/MivhVJSSavtLphWr5",
+        permanent: true,
+      },
     ];
   },
 };
