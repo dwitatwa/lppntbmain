@@ -213,6 +213,12 @@ module.exports = {
           "https://docs.google.com/forms/d/e/1FAIpQLScKLLpgIH5frrUQ4GLGa2rLAvPGb-zXCla-i-hRFVq4Rd8CyQ/viewform?usp=sf_link",
         permanent: true,
       },
+      {
+        source: "/KonfirmasiPesertaSosialisasiRB",
+        destination:
+          "https://docs.google.com/forms/d/e/1FAIpQLSfUVnGHOm8ZFHNOIU4L6APg7Chpm_CLCcZT-N8ujZ3GAFPdiA/viewform?vc=0&c=0&w=1&flr=0",
+        permanent: true,
+      },
     ];
   },
 };
