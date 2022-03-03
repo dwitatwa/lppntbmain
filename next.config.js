@@ -207,6 +207,12 @@ module.exports = {
           "https://forms.gle/LfMc91XrYhLFupoQ7",
         permanent: true,
       },
+      {
+        source: "/MUETPredictiontest",
+        destination:
+          "https://docs.google.com/forms/d/e/1FAIpQLScKLLpgIH5frrUQ4GLGa2rLAvPGb-zXCla-i-hRFVq4Rd8CyQ/viewform?usp=sf_link",
+        permanent: true,
+      },
     ];
   },
 };
