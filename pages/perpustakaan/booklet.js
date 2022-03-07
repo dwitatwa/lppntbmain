@@ -36,6 +36,27 @@ const Booklet = ({ booklet19_20, booklet_guru_nakes, booklet_tahap2 }) => {
           <div className={s.title}>
             <h1>Booklet Beasiswa NTB</h1>
           </div>
+          <div className={s.judul}>Tahun 2022</div>
+          <div className={s.container_buku}>
+            <div className={s.buku}>
+              <img src="/cobook.jpeg" alt="" />
+              <div className={s.content}>
+                <h1>Booklet Info</h1>
+                Tujuan Eropa dan Asia 2022 <br />
+                <div className={s.status}> Berlaku</div>
+                <Button
+                  className={s.download}
+                  size="small"
+                  variant="outlined"
+                  color="primary"
+                  href="https://drive.google.com/file/d/1326olOFGdERiSvCLr1OcJr3kdBDNmirb/view?usp=sharing"
+                  target="_blank"
+                >
+                  Download
+                </Button>
+              </div>
+            </div>
+          </div>
           <div className={s.judul}>Tahun 2021</div>
           <div className={s.container_buku}>
             <div className={s.buku}>
@@ -62,7 +83,7 @@ const Booklet = ({ booklet19_20, booklet_guru_nakes, booklet_tahap2 }) => {
               <div className={s.content}>
                 <h1>Booklet Info</h1>
                 Tujuan Asia 2021 <br />
-                <div className={s.status}> Masih Berlaku</div>
+                <div className={s.status_x}> Tidak Berlaku</div>
                 <Button
                   className={s.download}
                   size="small"
