@@ -198,7 +198,7 @@ const rumahBahasa = ({ image1, image2 }) => {
                   id="panel1bh-header"
                 >
                   <Typography className={s.accordion_title}>
-                    Timeline Program Rumah Bahasa Batch V Tahun 2021
+                    Timeline Program Rumah Bahasa Batch VI Tahun 2022
                   </Typography>
                 </AccordionSummary>
                 <AccordionDetails className={s.image_rb}>
