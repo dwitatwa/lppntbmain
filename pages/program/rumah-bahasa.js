@@ -61,7 +61,7 @@ const rumahBahasa = ({ image1, image2 }) => {
               variant="contained"
               color="secondary"
               size="small"
-              href="https://drive.google.com/file/d/1Coa2L5rFjXp36BYxHUZxm6u5laCthw2D/view?usp=sharing"
+              href="https://drive.google.com/file/d/1Coa2L5rFjXp36BYxHUZxm6u5laCthw2D/view"
               target="_blank"
               disableElevation
               style={{ margin: "5px" }}
@@ -72,7 +72,7 @@ const rumahBahasa = ({ image1, image2 }) => {
               variant="contained"
               color="secondary"
               size="small"
-              href="https://bntb.site/Oprecpesertarumahbahasa2022"
+              href="http://bntb.site/Openrecritmentrumahbahasa2022"
               target="_blank"
               disableElevation
               style={{ margin: "5px" }}
