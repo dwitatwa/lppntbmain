@@ -53,9 +53,7 @@ const rumahBahasa = ({ image1, image2 }) => {
           <div className={s.information}>
             <h1>Open Recruitment Peserta Rumah Bahasa Batch VI Tahun 2022</h1>
             <div>
-              Halo Sobat Rumah Bahasa...
-              Program General English & English for Tourism balik lagi nih <br/>
-              Yuk disiapkan segera syarat" Pendaftarannya Sebelum Tanggal 30 Januari 2021
+              Program Rumah Bahasa NTB kembali membuka pendaftaran untuk kalian yang mau belajar ESP for Tourism & Nurses/TOEFL/IELTS Secara Gratiss!! <br/> Yuk siapkan persyaratannya sebelum tanggal 30 April 2022
             </div>
             <Button
               variant="contained"
