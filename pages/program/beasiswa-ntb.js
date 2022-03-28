@@ -31,19 +31,28 @@ const beasiswaNTB = () => {
           </div>
           <div className={s.information}>
             <h1>
-              Jaddwal seleksi Tahap 2 - Seleksi Wawancara Beasiswa NTB S2
-              Tujuan Malaysia, Thailand, dan Turkey Tahun 2021.
+              Pendaftaran Beasiswa NTB Tujuan Asia dan Eropa Tahun 2022
             </h1>
             <br />
             <Button
               variant="contained"
               color="primary"
               size="small"
-              href="https://drive.google.com/file/d/1ehdJpoTWxP8v3hvdHv8fpXXV2L2qU8I5/view?usp=sharing"
+              href="https://drive.google.com/file/d/1k4_jUZidyYKDpf76gnYYHXNsDmgu-r0C/view?usp=sharing"
               target="_blank"
               disableElevation
             >
-              Lihat Disini &nbsp; <VisibilityIcon />
+              Lihat Booklet Pendaftaran &nbsp; <VisibilityIcon />
+            </Button>
+            <Button
+              variant="contained"
+              color="secondary"
+              size="small"
+              href="http://bntb.site/PendaftaranBeasiswaNTB-2022"
+              target="_blank"
+              disableElevation
+            >
+              Daftar Disini
             </Button>
           </div>
           <div className={s.card}>
