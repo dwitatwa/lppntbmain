@@ -44,7 +44,7 @@ const beasiswaNTB = () => {
             >
               Daftar Disini
             </Button>
-            <br />
+            &nbsp;
             <Button
               variant="contained"
               color="primary"
