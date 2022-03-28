@@ -33,6 +33,17 @@ const beasiswaNTB = () => {
             <h1>
               Pendaftaran Beasiswa NTB Tujuan Asia dan Eropa Tahun 2022
             </h1>
+            <br />        
+            <Button
+              variant="contained"
+              color="secondary"
+              size="small"
+              href="http://bntb.site/PendaftaranBeasiswaNTB-2022"
+              target="_blank"
+              disableElevation
+            >
+              Daftar Disini
+            </Button>
             <br />
             <Button
               variant="contained"
@@ -43,16 +54,6 @@ const beasiswaNTB = () => {
               disableElevation
             >
               Lihat Booklet Pendaftaran &nbsp; <VisibilityIcon />
-            </Button>
-            <Button
-              variant="contained"
-              color="secondary"
-              size="small"
-              href="http://bntb.site/PendaftaranBeasiswaNTB-2022"
-              target="_blank"
-              disableElevation
-            >
-              Daftar Disini
             </Button>
           </div>
           <div className={s.card}>
