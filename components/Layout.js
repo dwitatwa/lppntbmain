@@ -13,15 +13,14 @@ const Layout = ({ children }) => {
           crossOrigin="anonymous"
         />
         <link rel="icon" href="/favicon_lpp.ico" />
-      <!-- Global site tag (gtag.js) - Google Analytics -->
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-CJ90X41Q2D"></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-CJ90X41Q2D"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
 
-        gtag('config', 'G-CJ90X41Q2D');
-      </script>
+          gtag('config', 'G-CJ90X41Q2D');
+        </script>
       </Head>
       {/* <Header /> */}
       {children}
