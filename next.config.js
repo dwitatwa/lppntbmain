@@ -219,6 +219,12 @@ module.exports = {
           "https://docs.google.com/forms/d/e/1FAIpQLSfUVnGHOm8ZFHNOIU4L6APg7Chpm_CLCcZT-N8ujZ3GAFPdiA/viewform?vc=0&c=0&w=1&flr=0",
         permanent: true,
       },
+      {
+        source: "/SharingsessionRB2022",
+        destination:
+          "https://docs.google.com/forms/d/e/1FAIpQLSeQRtJIjosi0-YMQkMCjuKCZVu0dcuJIrZrKERohiyEhUaB4A/viewform?usp=sf_link",
+        permanent: true,
+      },
     ];
   },
 };
