@@ -225,6 +225,12 @@ module.exports = {
           "https://docs.google.com/forms/d/e/1FAIpQLSeQRtJIjosi0-YMQkMCjuKCZVu0dcuJIrZrKERohiyEhUaB4A/viewform?usp=sf_link",
         permanent: true,
       },
+      {
+        source: "/KursustoeflkilatLPPNTB",
+        destination:
+          "https://docs.google.com/forms/d/e/1FAIpQLScU7ksDp-zmUkuXKEKEEFInWeTbUe6Ev0Ktfj__6tT2BuBFCA/viewform?usp=sf_link",
+        permanent: true,
+      },
     ];
   },
 };
