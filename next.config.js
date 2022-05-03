@@ -231,6 +231,12 @@ module.exports = {
           "https://docs.google.com/forms/d/e/1FAIpQLScU7ksDp-zmUkuXKEKEEFInWeTbUe6Ev0Ktfj__6tT2BuBFCA/viewform?usp=sf_link",
         permanent: true,
       },
+      {
+        source: "/CalonpesertaIELTS",
+        destination:
+          "https://chat.whatsapp.com/JglYPMEslRxG1Jre9Nr2Cb",
+        permanent: true,
+      },
     ];
   },
 };
