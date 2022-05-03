@@ -51,31 +51,43 @@ const rumahBahasa = ({ image1, image2 }) => {
             <h1>Rumah Bahasa NTB</h1>
           </div>
           <div className={s.information}>
-            <h1>Open Recruitment Peserta Rumah Bahasa Batch VI Tahun 2022</h1>
+            <h1>Pengumuman Peserta Rumah Bahasa 2022</h1>
             <div>
-              Program Rumah Bahasa NTB kembali membuka pendaftaran untuk kalian yang mau belajar ESP for Tourism & Nurses/TOEFL/IELTS Secara Gratiss!! <br/> Yuk siapkan persyaratannya sebelum tanggal 30 April 2022
+              Halo Sobat Rumah Bahasa,
+              Kabar yang ditunggu-tunggu akhirnya tiba,
+              Yuk buruan cek nama kalian. Bagi yang lulus, jangan lupa mengisi formulir validasi melalui link dibawah ya. Bagi yang belum lulus, jangan berkecil hati coba lagi di batch berikutnya. Tetap semangat sobat MinSa semuanya
+              <Button
+                variant="contained"
+                color="primary"
+                size="small"
+                href="https://drive.google.com/file/d/1wVvcaDElW5zpvW34CpgHxbIaQbKyP0bS/view?usp=sharing"
+                target="_blank"
+                disableElevation
+              >
+                List Nama Peserta yang Lulus &nbsp; <VisibilityIcon />
+              </Button>
             </div>
             <Button
               variant="contained"
               color="secondary"
               size="small"
-              href="https://drive.google.com/file/d/1MO0bpzeSrpwnHN0-65xiVq9dycs39iF9/view"
+              href="https://lppntb.com/CalonpesertaIELTS"
               target="_blank"
               disableElevation
               style={{ margin: "5px" }}
             >
-              <GetAppIcon fontSize="small" /> &nbsp; Kontrak Pelatihan
+              <CheckCircleIcon fontSize="small" /> &nbsp; Validasi Peserta IELTS
             </Button>
             <Button
               variant="contained"
               color="secondary"
               size="small"
-              href="http://bntb.site/Openrecritmentrumahbahasa2022"
+              href="http://bntb.site/ValidasipesertaRB"
               target="_blank"
               disableElevation
               style={{ margin: "5px" }}
             >
-              <CheckCircleIcon fontSize="small" /> &nbsp; Form Pendaftaran
+              <CheckCircleIcon fontSize="small" /> &nbsp; Validasi Peserta TOEFL, GE & ESP 
             </Button>
           </div>
           {/* <div className={s.information}>
