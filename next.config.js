@@ -237,6 +237,12 @@ module.exports = {
           "https://chat.whatsapp.com/JglYPMEslRxG1Jre9Nr2Cb",
         permanent: true,
       },
+      {
+        source: "/KursusIELTSLPPNTB",
+        destination:
+          "https://docs.google.com/forms/d/e/1FAIpQLSf9kqu7lBjKa93_ic_r9yieDIvu3in48AzV3U3_HxtGe-OFhQ/viewform?usp=sf_link",
+        permanent: true,
+      },
     ];
   },
 };
