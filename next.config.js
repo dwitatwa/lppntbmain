@@ -243,6 +243,12 @@ module.exports = {
           "https://docs.google.com/forms/d/e/1FAIpQLSf9kqu7lBjKa93_ic_r9yieDIvu3in48AzV3U3_HxtGe-OFhQ/viewform?usp=sf_link",
         permanent: true,
       },
+      {
+        source: "/PengumumanIELTS",
+        destination:
+          "https://drive.google.com/file/d/1zJBCFkp5YyoKxwE9CU1o4c2PEs1mCFUI/view?usp=sharing",
+        permanent: true,
+      },
     ];
   },
 };
