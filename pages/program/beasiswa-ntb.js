@@ -31,29 +31,29 @@ const beasiswaNTB = () => {
           </div>
           <div className={s.information}>
             <h1>
-              Pendaftaran Beasiswa NTB Tujuan Asia dan Eropa Tahun 2022
+              Pengumuman Hasil Seleksi Tahap 1 - Seleksi Berkas Beasiswa NTB Tujuan Asia dan Eropa Tahun 2022
             </h1>
             <br />        
             <Button
               variant="contained"
               color="secondary"
               size="small"
-              href="http://bntb.site/PendaftaranBeasiswaNTB-2022"
+              href="http://bntb.site/Konfirmasi-SeleksiTahap1"
               target="_blank"
               disableElevation
             >
-              Daftar Disini
+              Link Konfirmasi Kelulusan
             </Button>
             &nbsp;
             <Button
               variant="contained"
               color="primary"
               size="small"
-              href="https://drive.google.com/file/d/1k4_jUZidyYKDpf76gnYYHXNsDmgu-r0C/view?usp=sharing"
+              href="https://drive.google.com/file/d/1EEVoZ4A7qErhKutcUPbt7jh1o-hr5hSM/view?usp=sharing"
               target="_blank"
               disableElevation
             >
-              Lihat Booklet Pendaftaran &nbsp; <VisibilityIcon />
+              Daftar Nama Yang Lulus &nbsp; <VisibilityIcon />
             </Button>
           </div>
           <div className={s.card}>
