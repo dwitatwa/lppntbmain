@@ -249,6 +249,12 @@ module.exports = {
           "https://drive.google.com/file/d/1zJBCFkp5YyoKxwE9CU1o4c2PEs1mCFUI/view?usp=sharing",
         permanent: true,
       },
+      {
+        source: "/MeetandgreetRB2022",
+        destination:
+          "https://us02web.zoom.us/j/3172294383?pwd=QWZxeldxMzlJaVZ4MHpJSEs3eWlIZz09",
+        permanent: true,
+      },
     ];
   },
 };
