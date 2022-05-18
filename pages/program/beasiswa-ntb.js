@@ -43,7 +43,7 @@ const beasiswaNTB = () => {
               target="_blank"
               disableElevation
             >
-              Daftar Nama Yang Lulus &nbsp; <VisibilityIcon />
+              Lihat Jadwal &nbsp; <VisibilityIcon />
             </Button>
           </div>
           <div className={s.card}>
