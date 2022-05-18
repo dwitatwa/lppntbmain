@@ -31,25 +31,15 @@ const beasiswaNTB = () => {
           </div>
           <div className={s.information}>
             <h1>
-              Pengumuman Hasil Seleksi Tahap 1 - Seleksi Berkas Beasiswa NTB Tujuan Asia dan Eropa Tahun 2022
+              Jadwal Seleksi Wawancara Beasiswa NTB Tujuan Polandia, Ceko, Malaysia Tahun 2022
             </h1>
-            <br />        
-            <Button
-              variant="contained"
-              color="secondary"
-              size="small"
-              href="http://bntb.site/Konfirmasi-SeleksiTahap1"
-              target="_blank"
-              disableElevation
-            >
-              Link Konfirmasi Kelulusan
-            </Button>
-            &nbsp;
+            <br /> 
+                <p> Berikut merupakan jadwal Seleksi Tahap 2 - Seleksi Wawancara Beasiswa NTB Tahun 2022 yang harus diikuti oleh seluruh peserta. Mohon untuk memperhatikan Tata Tertib yang tertera pada jadwal, sembari memperiapkan persyaratan-persyaratan yang harus dibawa saat seleksi. Terimakasih  </p>
             <Button
               variant="contained"
               color="primary"
               size="small"
-              href="https://drive.google.com/file/d/1EEVoZ4A7qErhKutcUPbt7jh1o-hr5hSM/view?usp=sharing"
+              href="https://drive.google.com/file/d/1tAEpjtrTjDNvtwroPybwZYltavZmMQiF/view?usp=sharing"
               target="_blank"
               disableElevation
             >
