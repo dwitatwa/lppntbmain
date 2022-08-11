@@ -73,6 +73,9 @@ const Header = () => {
             <WatchLaterIcon />
             <p>Sen-Jum: 9am – 5pm</p>
           </a>
+          <a href="/app-release.apk" className={s.hubungi} download>
+            <p>Download APP</p>
+          </a>
         </div>
         <div className={s.drawer}>
           <DrawerMenu />
