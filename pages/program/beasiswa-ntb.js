@@ -31,19 +31,29 @@ const beasiswaNTB = () => {
           </div>
           <div className={s.information}>
             <h1>
-              Jadwal Seleksi Wawancara Beasiswa NTB Tujuan Polandia, Ceko, Malaysia Tahun 2022
+              Pengumuman Hasil Seleksi Bantuan Dana Penelitian Untuk Awardee Beasiswa NTB Tahun 2022
             </h1>
             <br /> 
-                <p> Berikut merupakan jadwal Seleksi Tahap 2 - Seleksi Wawancara Beasiswa NTB Tahun 2022 yang harus diikuti oleh seluruh peserta. Mohon untuk memperhatikan Tata Tertib yang tertera pada jadwal, sembari memperiapkan persyaratan-persyaratan yang harus dibawa saat seleksi. Terimakasih  </p>
+                <p>Mohon melakukan konfirmasi kelulusan dengan mengisi form konfirmasi pada link dibawah. Terimakasih</p>
             <Button
               variant="contained"
               color="primary"
               size="small"
-              href="https://drive.google.com/file/d/1tAEpjtrTjDNvtwroPybwZYltavZmMQiF/view?usp=sharing"
+              href="https://drive.google.com/file/d/1ZqeMpHo2_gfsdCzvsGQy67K8S9oO8Z6t/view?usp=sharing"
               target="_blank"
               disableElevation
             >
-              Lihat Jadwal &nbsp; <VisibilityIcon />
+              Nama Penerima &nbsp; <VisibilityIcon />
+            </Button>
+            <Button
+              variant="contained"
+              color="primary"
+              size="small"
+              href="http://bntb.site/KonfirmasiDanaPenelitian2022"
+              target="_blank"
+              disableElevation
+            >
+                Form Konfirmasi
             </Button>
           </div>
           <div className={s.card}>
