@@ -45,6 +45,7 @@ const beasiswaNTB = () => {
             >
               Nama Penerima &nbsp; <VisibilityIcon />
             </Button>
+            &nbsp;
             <Button
               variant="contained"
               color="primary"
