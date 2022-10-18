@@ -29,7 +29,43 @@ const beasiswaNTB = () => {
           <div className={s.title}>
             <h1>Beasiswa NTB</h1>
           </div>
-          
+
+          <div className={s.information}>
+            <h1>
+              Pengumuman Hasil Seleksi Bantuan Dana Penelitian Untuk Awardee
+              Beasiswa NTB Tahun 2022
+            </h1>
+            <br />
+            <p>
+              Silahkan cek kembali email yang digunakan saat mendaftar.
+              Informasi kelulusan hanya akan didapatkan oleh Awardee yang
+              dinyatakan lulus seleksi. Setelah mendapat Email, mohon melakukan
+              konfirmasi kelulusan dengan mengisi form konfirmasi pada link
+              dibawah. Terimakasih
+            </p>
+            <Button
+              variant="contained"
+              color="primary"
+              size="small"
+              href="https://drive.google.com/file/d/1i4d1fCWwbJAYwMWWLpfhpIzOIDSur4Dw/view?usp=sharing"
+              target="_blank"
+              disableElevation
+            >
+              Nama Penerima &nbsp; <VisibilityIcon />
+            </Button>
+            &nbsp;
+            <Button
+              variant="contained"
+              color="primary"
+              size="small"
+              href="http://bntb.site/KonfirmasiDanaPenelitian2022"
+              target="_blank"
+              disableElevation
+            >
+              Form Konfirmasi
+            </Button>
+          </div>
+
           <div className={s.card}>
             <div className={s.accordion_container}>
               <Accordion
